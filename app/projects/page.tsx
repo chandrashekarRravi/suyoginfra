@@ -355,7 +355,7 @@ export default function ProjectsPage() {
           )}
 
           {/* Pagination */}
-          {filteredProjects.length > 0 && (
+          {/*{filteredProjects.length > 0 && (
             <motion.div
               className="mt-12 flex justify-center"
               initial={{ opacity: 0, y: 30 }}
@@ -381,7 +381,7 @@ export default function ProjectsPage() {
                 </Button>
               </div>
             </motion.div>
-          )}
+          )}*/}
         </div>
       </motion.section>
 

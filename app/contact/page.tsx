@@ -6,8 +6,8 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { motion } from "framer-motion"
-import { Send, Phone, Mail, MapPin, Check } from "lucide-react"
+import { motion, AnimatePresence } from "framer-motion"
+import { Send, Phone, Mail, MapPin, Check, ChevronDown, ChevronUp } from "lucide-react"
 import { useSearchParams } from "next/navigation"
 import { usePageNavigation } from "@/hooks/use-page-navigation"
 
@@ -19,6 +19,7 @@ export default function ContactPage() {
     message: "",
   })
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [openFAQ, setOpenFAQ] = useState<number | null>(null)
   const searchParams = useSearchParams()
   const consultation = searchParams.get("consultation")
   const { isPageLoaded, animationKey } = usePageNavigation()
@@ -54,6 +55,10 @@ export default function ContactPage() {
         })
       }, 3000)
     }, 1000)
+  }
+
+  const toggleFAQ = (index: number) => {
+    setOpenFAQ(openFAQ === index ? null : index)
   }
 
   return (
@@ -265,7 +270,7 @@ export default function ContactPage() {
             Frequently Asked Questions
           </h2>
 
-          <div className="mx-auto max-w-3xl space-y-6">
+          <div className="mx-auto max-w-3xl space-y-4">
             {[
               {
                 question: "What areas do you serve?",
@@ -293,10 +298,49 @@ export default function ContactPage() {
                   "We regularly collaborate with external architects and designers. Our team is experienced in translating design visions into reality while maintaining the integrity of the original concept.",
               },
             ].map((faq, index) => (
-              <div key={index} className="rounded-lg bg-white p-6 shadow-md">
-                <h3 className="font-montserrat text-lg font-semibold">{faq.question}</h3>
-                <p className="mt-2 text-gray-600">{faq.answer}</p>
-              </div>
+              <motion.div
+                key={index}
+                className="overflow-hidden rounded-lg bg-white shadow-md"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3, delay: index * 0.1 }}
+              >
+                <button
+                  onClick={() => toggleFAQ(index)}
+                  className="w-full px-6 py-4 text-left transition-colors hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-tata-blue focus:ring-inset"
+                >
+                  <div className="flex items-center justify-between">
+                    <h3 className="font-montserrat text-lg font-semibold text-gray-900">
+                      {faq.question}
+                    </h3>
+                    <motion.div
+                      animate={{ rotate: openFAQ === index ? 180 : 0 }}
+                      transition={{ duration: 0.2 }}
+                    >
+                      {openFAQ === index ? (
+                        <ChevronUp className="h-5 w-5 text-tata-blue" />
+                      ) : (
+                        <ChevronDown className="h-5 w-5 text-gray-400" />
+                      )}
+                    </motion.div>
+                  </div>
+                </button>
+                <AnimatePresence>
+                  {openFAQ === index && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3, ease: "easeInOut" }}
+                      className="overflow-hidden"
+                    >
+                      <div className="px-6 pb-4">
+                        <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </motion.div>
             ))}
           </div>
         </div>
