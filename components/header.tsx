@@ -27,6 +27,26 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
+  // Close mobile menu when route changes
+  useEffect(() => {
+    setMobileMenuOpen(false)
+  }, [pathname])
+
+  // Close mobile menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as Element
+      if (mobileMenuOpen && !target.closest('#mobile-menu') && !target.closest('button[aria-controls="mobile-menu"]')) {
+        setMobileMenuOpen(false)
+      }
+    }
+
+    if (mobileMenuOpen) {
+      document.addEventListener('click', handleClickOutside)
+      return () => document.removeEventListener('click', handleClickOutside)
+    }
+  }, [mobileMenuOpen])
+
   // Function to check if the current link is active
   const isActive = (path: string) => pathname === path
 
@@ -82,10 +102,14 @@ export default function Header() {
         <div className="flex items-center space-x-4 md:hidden">
           <button
             type="button"
-            className="inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100 hover:text-tata-blue dark:text-gray-300 dark:hover:bg-gray-800"
+            className="inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100 hover:text-tata-blue focus:outline-none focus:ring-2 focus:ring-tata-blue focus:ring-offset-2 dark:text-gray-300 dark:hover:bg-gray-800 dark:focus:ring-offset-gray-900"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-expanded={mobileMenuOpen}
+            aria-controls="mobile-menu"
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only">
+              {mobileMenuOpen ? "Close main menu" : "Open main menu"}
+            </span>
             {mobileMenuOpen ? (
               <X className="h-6 w-6" aria-hidden="true" />
             ) : (
@@ -97,19 +121,20 @@ export default function Header() {
 
       {/* Mobile menu */}
       <div
+        id="mobile-menu"
         className={cn(
-          "absolute inset-x-0 top-full transform bg-white p-4 transition-all duration-300 ease-in-out dark:bg-gray-900 md:hidden",
-          mobileMenuOpen ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0",
+          "absolute inset-x-0 top-full z-50 bg-white shadow-lg border-t border-gray-200 mobile-menu-transition dark:bg-gray-900 dark:border-gray-700 md:hidden",
+          mobileMenuOpen ? "translate-y-0 opacity-100 visible" : "-translate-y-full opacity-0 invisible",
         )}
       >
-        <div className="space-y-1 px-2 pb-3 pt-2">
+        <div className="space-y-1 px-4 py-3">
           {navigation.map((item) => (
             <Link
               key={item.name}
               href={item.href}
               onClick={() => setMobileMenuOpen(false)}
               className={cn(
-                "block rounded-md px-3 py-2 font-montserrat text-base font-medium transition-colors",
+                "mobile-nav-link block rounded-md px-3 py-3 font-montserrat text-base font-medium transition-colors",
                 isActive(item.href)
                   ? "text-tata-blue bg-gray-100 dark:bg-gray-800"
                   : "text-gray-700 hover:bg-gray-100 hover:text-tata-blue dark:text-gray-300 dark:hover:bg-gray-800",
@@ -119,15 +144,17 @@ export default function Header() {
             </Link>
           ))}
 
-          <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>
-            <Button
-              variant="default"
-              className="mt-4 w-full bg-tata-blue text-white hover:bg-tata-blue/90 hover:text-white"
-            >
-              <Phone className="mr-2 h-4 w-4" />
-              Contact Us
-            </Button>
-          </Link>
+          <div className="mt-4 pt-3 border-t border-gray-200 dark:border-gray-700">
+            <Link href="/contact" onClick={() => setMobileMenuOpen(false)}>
+              <Button
+                variant="default"
+                className="w-full bg-tata-blue text-white hover:bg-tata-blue/90 hover:text-white min-h-[44px]"
+              >
+                <Phone className="mr-2 h-4 w-4" />
+                Contact Us
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </header>
