@@ -36,6 +36,37 @@ const stats = [
   },
 ]
 
+// Individual stat component to avoid hook issues
+function StatCard({ stat, index, isPageLoaded }: { stat: typeof stats[0], index: number, isPageLoaded: boolean }) {
+  const { count, elementRef } = useCountUp({
+    end: stat.numericValue || 0,
+    duration: 2000,
+    startOnIntersect: false,
+    delay: index * 200
+  })
+
+  const displayValue = stat.numericValue !== null
+    ? `${count}${stat.value.replace(/^\d+/, '')}` // Replace the number part with animated count
+    : stat.value
+
+  return (
+    <motion.div
+      ref={elementRef}
+      className="flex flex-col items-center text-center"
+      initial={{ opacity: 0, y: 20 }}
+      animate={isPageLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+      transition={{ duration: 0.4, delay: index * 0.1 }}
+    >
+      <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-tata-blue/10">
+        <stat.icon className="h-8 w-8 text-tata-blue" />
+      </div>
+      <span className="font-montserrat text-3xl font-bold">{displayValue}</span>
+      <h3 className="font-montserrat text-lg font-medium">{stat.label}</h3>
+      <p className="mt-2 text-sm text-gray-600">{stat.description}</p>
+    </motion.div>
+  )
+}
+
 export default function WhySuyog() {
   const { isPageLoaded, animationKey } = usePageNavigation()
 
@@ -69,7 +100,8 @@ export default function WhySuyog() {
               const { count, elementRef } = useCountUp({
                 end: stat.numericValue || 0,
                 duration: 2000,
-                startOnIntersect: false  // Start counting immediately when page loads
+                startOnIntersect: false,  // Start counting immediately when page loads
+                delay: index * 200  // Stagger the animation start times
               })
 
               const displayValue = stat.numericValue !== null

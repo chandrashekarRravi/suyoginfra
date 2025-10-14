@@ -7,18 +7,21 @@ interface UseCountUpProps {
     duration?: number
     startOnIntersect?: boolean
     threshold?: number
+    delay?: number
 }
 
 export function useCountUp({
     end,
     duration = 2000,
     startOnIntersect = true,
-    threshold = 0.1
+    threshold = 0.1,
+    delay = 0
 }: UseCountUpProps) {
     const [count, setCount] = useState(0)
     const [isVisible, setIsVisible] = useState(false)
     const [hasAnimated, setHasAnimated] = useState(false)
     const elementRef = useRef<HTMLDivElement>(null)
+    const timeoutRef = useRef<NodeJS.Timeout>()
 
     useEffect(() => {
         // Reset state when component mounts (for page navigation)
@@ -27,31 +30,35 @@ export function useCountUp({
         setCount(0)
 
         if (!startOnIntersect) {
-            // Start animation immediately when page loads
-            const timer = setTimeout(() => {
+            // Start animation after a delay to ensure proper rendering and page load
+            timeoutRef.current = setTimeout(() => {
                 setIsVisible(true)
                 setHasAnimated(true)
-            }, 200) // Small delay to ensure proper rendering
+            }, delay + 500) // Increased delay to ensure page is fully loaded
+        } else {
+            const observer = new IntersectionObserver(
+                ([entry]) => {
+                    if (entry.isIntersecting && !hasAnimated) {
+                        setIsVisible(true)
+                        setHasAnimated(true)
+                    }
+                },
+                { threshold }
+            )
 
-            return () => clearTimeout(timer)
+            if (elementRef.current) {
+                observer.observe(elementRef.current)
+            }
+
+            return () => observer.disconnect()
         }
 
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting && !hasAnimated) {
-                    setIsVisible(true)
-                    setHasAnimated(true)
-                }
-            },
-            { threshold }
-        )
-
-        if (elementRef.current) {
-            observer.observe(elementRef.current)
+        return () => {
+            if (timeoutRef.current) {
+                clearTimeout(timeoutRef.current)
+            }
         }
-
-        return () => observer.disconnect()
-    }, [startOnIntersect, threshold, hasAnimated])
+    }, [startOnIntersect, threshold, delay]) // Removed hasAnimated from dependencies
 
     useEffect(() => {
         if (!isVisible) return
