@@ -360,6 +360,31 @@ export default function AboutPage() {
                   ]
                 },
                 {
+                  title: "Telecom & Fiber Optic Projects",
+                  year: "2019",
+                  content: (
+                    <div>
+                      <p className="mb-4 text-sm text-gray-600">
+                        Suyog Infra Solutions began its journey with turnkey telecom and optical fiber projects, establishing a strong foundation in infrastructure execution.
+
+                      </p>
+                      {/*<div className="grid grid-cols-2 gap-2">
+                        <img
+                          src="/placeholder.svg?height=200&width=300"
+                          alt="Interior design"
+                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
+                        />
+                        <img
+                          src="/placeholder.svg?height=200&width=300"
+                          alt="Architectural planning"
+                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
+                        />
+                      </div>*/}
+                    </div>
+                  ),
+
+                },
+                {
                   title: "ISO Certification",
                   year: "2015",
                   content: (
@@ -388,12 +413,14 @@ export default function AboutPage() {
                   ]
                 },
                 {
-                  title: "Sustainability Focus",
+                  title: "Integrating Technology",
                   year: "2020",
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        Launched our green building initiative, focusing on sustainable construction practices and eco-friendly materials.
+                        Expanded into RFID and boom barrier–based smart parking systems, AV integration, and networking solutions for corporate and institutional clients.
+
+
                       </p>
                       {/*<div className="grid grid-cols-2 gap-2">
                         <img
@@ -409,12 +436,36 @@ export default function AboutPage() {
                       </div>*/}
                     </div>
                   ),
-                  achievements: [
-                    "Green building certification",
-                    "Sustainable material sourcing",
-                    "Carbon footprint reduction"
-                  ]
+
                 },
+                {
+                  title: " Green and Smart Solutions",
+                  year: "2022",
+                  content: (
+                    <div>
+                      <p className="mb-4 text-sm text-gray-600">
+                        Ventured into the EV charging infrastructure segment, contributing to India’s green mobility movement while strengthening expertise in landscape and irrigation automation.
+
+
+
+                      </p>
+                      {/*<div className="grid grid-cols-2 gap-2">
+                        <img
+                          src="/placeholder.svg?height=200&width=300"
+                          alt="Green building"
+                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
+                        />
+                        <img
+                          src="/placeholder.svg?height=200&width=300"
+                          alt="Sustainable materials"
+                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
+                        />
+                      </div>*/}
+                    </div>
+                  ),
+
+                },
+
                 {
                   title: "Digital Transformation",
                   year: "2023",
@@ -442,7 +493,60 @@ export default function AboutPage() {
                     "Digital project management",
                     "200+ skilled professionals"
                   ]
-                }
+                },
+                {
+                  title: " Building Trust Across Sectors & Interiors",
+                  year: "2024",
+                  content: (
+                    <div>
+                      <p className="mb-4 text-sm text-gray-600">
+                        Delivered large-scale commercial, residential, interior, and landscape development projects, becoming a trusted partner for comprehensive infrastructure solutions.
+
+
+
+                      </p>
+                      {/*<div className="grid grid-cols-2 gap-2">
+                        <img
+                          src="/placeholder.svg?height=200&width=300"
+                          alt="Green building"
+                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
+                        />
+                        <img
+                          src="/placeholder.svg?height=200&width=300"
+                          alt="Sustainable materials"
+                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
+                        />
+                      </div>*/}
+                    </div>
+                  ),
+
+                },
+                {
+                  title: " Sustainable Buildings & Future Growth",
+                  year: "2025",
+                  content: (
+                    <div>
+                      <p className="mb-4 text-sm text-gray-600">
+                        Focused on sustainable and technology-driven infrastructure, promoting eco-friendly designs, smart construction practices, and long-term value creation.
+
+
+                      </p>
+                      {/*<div className="grid grid-cols-2 gap-2">
+                        <img
+                          src="/placeholder.svg?height=200&width=300"
+                          alt="Green building"
+                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
+                        />
+                        <img
+                          src="/placeholder.svg?height=200&width=300"
+                          alt="Sustainable materials"
+                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
+                        />
+                      </div>*/}
+                    </div>
+                  ),
+
+                },
               ]}
             />
           </motion.div>
