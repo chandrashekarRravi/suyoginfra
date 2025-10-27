@@ -46,10 +46,10 @@ export default function Home() {
 
         <WhySuyog />
 
-        <section id="projects" className="bg-gray-50 py-24 scroll-mt-24">
+        {/* <section id="projects" className="bg-gray-50 py-24 scroll-mt-24">
           <div className="container mx-auto px-4">
             <div className="mb-16 flex flex-col items-center text-center">
-              <h2 className="font-montserrat text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
+              <h2 className="font-montserrat text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl"> 
                 Featured Projects
               </h2>
               <p className="mt-4 max-w-2xl text-gray-600">
@@ -66,7 +66,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <Testimonials />
 
