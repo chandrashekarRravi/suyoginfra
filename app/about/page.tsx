@@ -66,8 +66,7 @@ export default function AboutPage() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
-                Founded in 2001, Suyog Infra Solutions began as a small construction firm with a big vision - to
-                transform the urban landscape of Bangalore with quality construction and innovative design.
+                Suyog Infra Solutions began as a small construction firm with a big vision - to transform the urban landscape of Bangalore with quality construction and innovative design.
               </motion.p>
               <motion.p
                 className="mt-4 text-gray-600"
@@ -76,9 +75,7 @@ export default function AboutPage() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.6, delay: 0.6 }}
               >
-                Over the years, we've grown from a team of 5 dedicated professionals to a workforce of over 200 skilled
-                engineers, architects, designers, and construction experts. Our journey has been marked by continuous
-                learning, adaptation to new technologies, and an unwavering commitment to excellence.
+                Over the years, we've grown from a team of 5 dedicated professionals to a workforce of over 200 skilled engineers, architects, designers, and construction experts. Our journey has been marked by continuous learning, adaptation to new technologies, and an unwavering commitment to excellence.
               </motion.p>
               <motion.p
                 className="mt-4 text-gray-600"
@@ -87,9 +84,7 @@ export default function AboutPage() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.6, delay: 0.8 }}
               >
-                Today, we stand as one of Bangalore's premier construction and interior execution companies, with a
-                portfolio spanning residential complexes, commercial spaces, hospitality projects, and institutional
-                buildings.
+                Today, we stand as one of Bangalore's premier construction and interior execution companies, with a portfolio spanning residential complexes, commercial spaces, hospitality projects, and institutional buildings.
               </motion.p>
             </motion.div>
             <motion.div
@@ -276,12 +271,12 @@ export default function AboutPage() {
             <Timeline
               data={[
                 {
-                  title: "Company Founded",
-                  year: "2001",
+                  title: "Telecom & Fiber Optic Projects",
+                  year: "2019",
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        Suyog Infra Solutions was established in Bangalore with a vision to transform the urban landscape through quality construction and innovative design.
+                        Suyog Infra Solutions began its journey with turnkey telecom and optical fiber projects, establishing a strong foundation in infrastructure execution.
                       </p>
                       {/*<div className="grid grid-cols-2 gap-2">
                         <img
@@ -297,19 +292,19 @@ export default function AboutPage() {
                       </div>*/}
                     </div>
                   ),
-                  achievements: [
-                    "Started with 5 dedicated professionals",
-                    "First office in Bangalore",
-                    "Initial focus on residential projects"
-                  ]
+                  // achievements: [
+                  //   "Started with 5 dedicated professionals",
+                  //   "First office in Bangalore",
+                  //   "Initial focus on residential projects"
+                  // ]
                 },
                 {
-                  title: "First Major Project",
-                  year: "2005",
+                  title: "Integrating Technology",
+                  year: "2020",
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        Completed our first major commercial complex in Whitefield, establishing our reputation for quality and timely delivery.
+                        Expanded into RFID and boom barrier–based smart parking systems, AV integration, and networking solutions for corporate and institutional clients.
                       </p>
                       {/* <div className="grid grid-cols-2 gap-2">
                         <img
@@ -325,19 +320,19 @@ export default function AboutPage() {
                       </div>*/}
                     </div>
                   ),
-                  achievements: [
-                    "50,000 sq ft commercial complex",
-                    "Completed ahead of schedule",
-                    "100% client satisfaction"
-                  ]
+                  // achievements: [
+                  //   "50,000 sq ft commercial complex",
+                  //   "Completed ahead of schedule",
+                  //   "100% client satisfaction"
+                  // ]
                 },
                 {
-                  title: "Service Expansion",
-                  year: "2010",
+                  title: "Green and Smart Solutions",
+                  year: "2022",
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        Expanded our services to include interior execution and architectural planning, becoming a comprehensive construction solutions provider.
+                        Ventured into the EV charging infrastructure segment, contributing to India’s green mobility movement while strengthening expertise in landscape and irrigation automation.
                       </p>
                       {/*<div className="grid grid-cols-2 gap-2">
                         <img
@@ -353,20 +348,19 @@ export default function AboutPage() {
                       </div>*/}
                     </div>
                   ),
-                  achievements: [
-                    "Added interior design services",
-                    "Launched architectural planning",
-                    "Team expanded to 50+ professionals"
-                  ]
+                  // achievements: [
+                  //   "Added interior design services",
+                  //   "Launched architectural planning",
+                  //   "Team expanded to 50+ professionals"
+                  // ]
                 },
                 {
-                  title: "Telecom & Fiber Optic Projects",
-                  year: "2019",
+                  title: "Building Trust Across Sectors & Interiors",
+                  year: "2024",
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        Suyog Infra Solutions began its journey with turnkey telecom and optical fiber projects, establishing a strong foundation in infrastructure execution.
-
+                        Delivered large-scale commercial, residential, interior, and landscape development projects, becoming a trusted partner for comprehensive infrastructure solutions.
                       </p>
                       {/*<div className="grid grid-cols-2 gap-2">
                         <img
@@ -385,12 +379,12 @@ export default function AboutPage() {
 
                 },
                 {
-                  title: "ISO Certification",
-                  year: "2015",
+                  title: "Sustainable Buildings & Future Growth",
+                  year: "2025",
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        Received ISO 9001:2015 certification for our quality management systems, reinforcing our commitment to excellence.
+                        Focused on sustainable and technology-driven infrastructure, promoting eco-friendly designs, smart construction practices, and long-term value creation.
                       </p>
                       {/* <div className="grid grid-cols-2 gap-2">
                         <img
@@ -406,11 +400,11 @@ export default function AboutPage() {
                       </div>*/}
                     </div>
                   ),
-                  achievements: [
-                    "ISO 9001:2015 certification",
-                    "Enhanced quality processes",
-                    "Industry recognition"
-                  ]
+                  // achievements: [
+                  //   "ISO 9001:2015 certification",
+                  //   "Enhanced quality processes",
+                  //   "Industry recognition"
+                  // ]
                 },
                 {
                   title: "Integrating Technology",
@@ -438,17 +432,17 @@ export default function AboutPage() {
                   ),
 
                 },
-                {
-                  title: " Green and Smart Solutions",
-                  year: "2022",
-                  content: (
-                    <div>
-                      <p className="mb-4 text-sm text-gray-600">
-                        Ventured into the EV charging infrastructure segment, contributing to India’s green mobility movement while strengthening expertise in landscape and irrigation automation.
+                // {
+                //   title: " Green and Smart Solutions",
+                //   year: "2022",
+                //   content: (
+                //     <div>
+                //       <p className="mb-4 text-sm text-gray-600">
+                //         Ventured into the EV charging infrastructure segment, contributing to India’s green mobility movement while strengthening expertise in landscape and irrigation automation.
 
 
 
-                      </p>
+                //       </p>
                       {/*<div className="grid grid-cols-2 gap-2">
                         <img
                           src="/placeholder.svg?height=200&width=300"
@@ -461,19 +455,19 @@ export default function AboutPage() {
                           className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
                         />
                       </div>*/}
-                    </div>
-                  ),
+                //     </div>
+                //   ),
 
-                },
+                // },
 
-                {
-                  title: "Digital Transformation",
-                  year: "2023",
-                  content: (
-                    <div>
-                      <p className="mb-4 text-sm text-gray-600">
-                        Implemented advanced digital tools and BIM technology across all projects, revolutionizing our project delivery approach.
-                      </p>
+                // {
+                //   title: "Digital Transformation",
+                //   year: "2023",
+                //   content: (
+                //     <div>
+                //       <p className="mb-4 text-sm text-gray-600">
+                //         Implemented advanced digital tools and BIM technology across all projects, revolutionizing our project delivery approach.
+                //       </p>
                       {/*<div className="grid grid-cols-2 gap-2">
                         <img
                           src="/placeholder.svg?height=200&width=300"
@@ -486,65 +480,65 @@ export default function AboutPage() {
                           className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
                         />
                       </div>*/}
-                    </div>
-                  ),
-                  achievements: [
-                    "BIM technology implementation",
-                    "Digital project management",
-                    "200+ skilled professionals"
-                  ]
-                },
-                {
-                  title: " Building Trust Across Sectors & Interiors",
-                  year: "2024",
-                  content: (
-                    <div>
-                      <p className="mb-4 text-sm text-gray-600">
-                        Delivered large-scale commercial, residential, interior, and landscape development projects, becoming a trusted partner for comprehensive infrastructure solutions.
+                //     </div>
+                //   ),
+                //   achievements: [
+                //     "BIM technology implementation",
+                //     "Digital project management",
+                //     "200+ skilled professionals"
+                //   ]
+                // },
+                // {
+                //   title: " Building Trust Across Sectors & Interiors",
+                //   year: "2024",
+                //   content: (
+                //     <div>
+                //       <p className="mb-4 text-sm text-gray-600">
+                //         Delivered large-scale commercial, residential, interior, and landscape development projects, becoming a trusted partner for comprehensive infrastructure solutions.
 
 
 
-                      </p>
-                      {/*<div className="grid grid-cols-2 gap-2">
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Green building"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Sustainable materials"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                      </div>*/}
-                    </div>
-                  ),
+                //       </p>
+                //       {/*<div className="grid grid-cols-2 gap-2">
+                //         <img
+                //           src="/placeholder.svg?height=200&width=300"
+                //           alt="Green building"
+                //           className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
+                //         />
+                //         <img
+                //           src="/placeholder.svg?height=200&width=300"
+                //           alt="Sustainable materials"
+                //           className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
+                //         />
+                //       </div>*/}
+                //     </div>
+                //   ),
 
-                },
-                {
-                  title: " Sustainable Buildings & Future Growth",
-                  year: "2025",
-                  content: (
-                    <div>
-                      <p className="mb-4 text-sm text-gray-600">
-                        Focused on sustainable and technology-driven infrastructure, promoting eco-friendly designs, smart construction practices, and long-term value creation.
+                // },
+                // {
+                //   title: " Sustainable Buildings & Future Growth",
+                //   year: "2025",
+                //   content: (
+                //     <div>
+                //       <p className="mb-4 text-sm text-gray-600">
+                //         Focused on sustainable and technology-driven infrastructure, promoting eco-friendly designs, smart construction practices, and long-term value creation.
 
 
-                      </p>
-                      {/*<div className="grid grid-cols-2 gap-2">
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Green building"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Sustainable materials"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                      </div>*/}
-                    </div>
-                  ),
+                //       </p>
+                //       {/*<div className="grid grid-cols-2 gap-2">
+                //         <img
+                //           src="/placeholder.svg?height=200&width=300"
+                //           alt="Green building"
+                //           className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
+                //         />
+                //         <img
+                //           src="/placeholder.svg?height=200&width=300"
+                //           alt="Sustainable materials"
+                //           className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
+                //         />
+                //       </div>*/}
+                //     </div>
+                //   ),
 
                 },
               ]}
