@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Phone } from "lucide-react"
@@ -60,10 +61,16 @@ export default function Header() {
       )}
     >
       <div className="container mx-auto flex items-center justify-between px-4">
-        {/* Logo */}
+        {/* Logo with image */}
         <Link href="/" className="flex items-center">
           <div className="flex items-center space-x-2">
-            <div className="h-8 w-8 rounded-sm bg-tata-blue"></div>
+            <Image
+              src="/suyog.png"
+              alt="Suyog Infra Logo"
+              width={8}
+              height={8}
+              className="h-8 w-8 object-contain"
+            />
             <span className="font-montserrat text-xl font-semibold tracking-tight">
               Suyog Infra
             </span>
