@@ -289,25 +289,8 @@ export default function AboutPage() {
                       <p className="mb-4 text-sm text-gray-600">
                         Expanded into RFID and boom barrier–based smart parking systems, AV integration, and networking solutions for corporate and institutional clients.
                       </p>
-                      {/* <div className="grid grid-cols-2 gap-2">
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Commercial complex"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Project completion"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                      </div>*/}
                     </div>
                   ),
-                  // achievements: [
-                  //   "50,000 sq ft commercial complex",
-                  //   "Completed ahead of schedule",
-                  //   "100% client satisfaction"
-                  // ]
                 },
                 {
                   title: "Green and Smart Solutions",
@@ -317,25 +300,8 @@ export default function AboutPage() {
                       <p className="mb-4 text-sm text-gray-600">
                         Ventured into the EV charging infrastructure segment, contributing to India’s green mobility movement while strengthening expertise in landscape and irrigation automation.
                       </p>
-                      {/*<div className="grid grid-cols-2 gap-2">
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Interior design"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Architectural planning"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                      </div>*/}
                     </div>
                   ),
-                  // achievements: [
-                  //   "Added interior design services",
-                  //   "Launched architectural planning",
-                  //   "Team expanded to 50+ professionals"
-                  // ]
                 },
                 {
                   title: "Building Trust Across Sectors & Interiors",
@@ -345,21 +311,8 @@ export default function AboutPage() {
                       <p className="mb-4 text-sm text-gray-600">
                         Delivered large-scale commercial, residential, interior, and landscape development projects, becoming a trusted partner for comprehensive infrastructure solutions.
                       </p>
-                      {/*<div className="grid grid-cols-2 gap-2">
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Interior design"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Architectural planning"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                      </div>*/}
                     </div>
                   ),
-
                 },
                 {
                   title: "Sustainable Buildings & Future Growth",
@@ -369,161 +322,9 @@ export default function AboutPage() {
                       <p className="mb-4 text-sm text-gray-600">
                         Focused on sustainable and technology-driven infrastructure, promoting eco-friendly designs, smart construction practices, and long-term value creation.
                       </p>
-                      {/* <div className="grid grid-cols-2 gap-2">
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="ISO certification"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Quality systems"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                      </div>*/}
                     </div>
                   ),
-                  // achievements: [
-                  //   "ISO 9001:2015 certification",
-                  //   "Enhanced quality processes",
-                  //   "Industry recognition"
-                  // ]
                 },
-                {
-                  title: "Integrating Technology",
-                  year: "2020",
-                  content: (
-                    <div>
-                      <p className="mb-4 text-sm text-gray-600">
-                        Expanded into RFID and boom barrier–based smart parking systems, AV integration, and networking solutions for corporate and institutional clients.
-
-
-                      </p>
-                      {/*<div className="grid grid-cols-2 gap-2">
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Green building"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Sustainable materials"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                      </div>*/}
-                    </div>
-                  ),
-
-                },
-                // {
-                //   title: " Green and Smart Solutions",
-                //   year: "2022",
-                //   content: (
-                //     <div>
-                //       <p className="mb-4 text-sm text-gray-600">
-                //         Ventured into the EV charging infrastructure segment, contributing to India’s green mobility movement while strengthening expertise in landscape and irrigation automation.
-
-
-
-                //       </p>
-                      {/*<div className="grid grid-cols-2 gap-2">
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Green building"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Sustainable materials"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                      </div>*/}
-                //     </div>
-                //   ),
-
-                // },
-
-                // {
-                //   title: "Digital Transformation",
-                //   year: "2023",
-                //   content: (
-                //     <div>
-                //       <p className="mb-4 text-sm text-gray-600">
-                //         Implemented advanced digital tools and BIM technology across all projects, revolutionizing our project delivery approach.
-                //       </p>
-                      {/*<div className="grid grid-cols-2 gap-2">
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="BIM technology"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Digital tools"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                      </div>*/}
-                //     </div>
-                //   ),
-                //   achievements: [
-                //     "BIM technology implementation",
-                //     "Digital project management",
-                //     "200+ skilled professionals"
-                //   ]
-                // },
-                // {
-                //   title: " Building Trust Across Sectors & Interiors",
-                //   year: "2024",
-                //   content: (
-                //     <div>
-                //       <p className="mb-4 text-sm text-gray-600">
-                //         Delivered large-scale commercial, residential, interior, and landscape development projects, becoming a trusted partner for comprehensive infrastructure solutions.
-
-
-
-                //       </p>
-                //       {/*<div className="grid grid-cols-2 gap-2">
-                //         <img
-                //           src="/placeholder.svg?height=200&width=300"
-                //           alt="Green building"
-                //           className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                //         />
-                //         <img
-                //           src="/placeholder.svg?height=200&width=300"
-                //           alt="Sustainable materials"
-                //           className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                //         />
-                //       </div>*/}
-                //     </div>
-                //   ),
-
-                // },
-                // {
-                //   title: " Sustainable Buildings & Future Growth",
-                //   year: "2025",
-                //   content: (
-                //     <div>
-                //       <p className="mb-4 text-sm text-gray-600">
-                //         Focused on sustainable and technology-driven infrastructure, promoting eco-friendly designs, smart construction practices, and long-term value creation.
-
-
-                //       </p>
-                //       {/*<div className="grid grid-cols-2 gap-2">
-                //         <img
-                //           src="/placeholder.svg?height=200&width=300"
-                //           alt="Green building"
-                //           className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                //         />
-                //         <img
-                //           src="/placeholder.svg?height=200&width=300"
-                //           alt="Sustainable materials"
-                //           className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                //         />
-                //       </div>*/}
-                //     </div>
-                //   ),
-
-                // },
               ]}
             />
           </motion.div>
