@@ -67,12 +67,12 @@ export default function Header() {
             <Image
               src="/suyog.png"
               alt="Suyog Infra Logo"
-              width={10}
-              height={10}
-              className="h-10 w-10 object-contain"
+              width={14}
+              height={14}
+              className="h-14 w-14 object-contain"
             />
             <span className="font-montserrat text-xl font-semibold tracking-tight">
-              Suyog Infra
+              Suyog Infra Solutions
             </span>
           </div>
         </Link>
