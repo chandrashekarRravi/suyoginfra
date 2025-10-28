@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40 z-10"></div>
         <img
-          src="/home page.png?height=1080&width=1920"
+          src="/home page.jpg?height=1080&width=1920"
           alt="Construction site"
           className="h-full w-full object-cover"
         />
