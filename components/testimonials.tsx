@@ -11,7 +11,7 @@ const testimonials = [
     id: 1,
     name: "Rajesh Sharma",
     position: "CEO, Sharma Properties",
-    image: "/placeholder.svg?height=200&width=200",
+    
     content:
       "Suyog Infra Solutions transformed our vision into reality with exceptional attention to detail. Their team's expertise in construction and project management ensured our commercial complex was delivered on time and within budget. The quality of work speaks for itself.",
     rating: 5,
