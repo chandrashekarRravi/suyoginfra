@@ -71,9 +71,18 @@ export default function Header() {
               height={14}
               className="h-14 w-14 object-contain"
             />
-            <span className="font-montserrat text-xl font-semibold tracking-tight text-white uppercase">
-              Suyog Infra Solutions
-            </span>
+            <span
+            className={cn(
+              "font-montserrat text-xl font-semibold tracking-tight uppercase transition-colors",
+              pathname === "/"
+                ? isScrolled
+                  ? "text-black"
+                  : "text-white"
+                : "text-black"
+            )}
+          >
+            Suyog Infra Solutions
+          </span>
           </div>
         </Link>
 
