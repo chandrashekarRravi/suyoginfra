@@ -26,7 +26,7 @@ export default function Hero() {
               of Spaces.
             </h1>
             <p className="mt-6 max-w-xl text-lg text-gray-200">
-              Complete Construction & Interior Execution Backed by 20+ Years of Excellence in Bangalore and beyond.
+              Complete Construction & Interior Solutions Backed by Decades of Proven Excellence in Bangalore and beyond.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link href="/projects">
