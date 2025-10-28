@@ -95,7 +95,7 @@ export default function AboutPage() {
               transition={{ duration: 0.8, delay: 0.4 }}
             >
               <img
-                src="/placeholder.svg?height=600&width=800"
+                src="/group.webp?height=600&width=800"
                 alt="Suyog Infra office building"
                 className="h-full w-full rounded-lg object-cover shadow-lg"
               />
