@@ -278,25 +278,8 @@ export default function AboutPage() {
                       <p className="mb-4 text-sm text-gray-600">
                         Suyog Infra Solutions began its journey with turnkey telecom and optical fiber projects, establishing a strong foundation in infrastructure execution.
                       </p>
-                      {/*<div className="grid grid-cols-2 gap-2">
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Company founding"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                        <img
-                          src="/placeholder.svg?height=200&width=300"
-                          alt="Early projects"
-                          className="h-16 w-full rounded-lg object-cover shadow-sm md:h-20"
-                        />
-                      </div>*/}
                     </div>
                   ),
-                  // achievements: [
-                  //   "Started with 5 dedicated professionals",
-                  //   "First office in Bangalore",
-                  //   "Initial focus on residential projects"
-                  // ]
                 },
                 {
                   title: "Integrating Technology",
