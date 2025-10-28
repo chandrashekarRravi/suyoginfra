@@ -84,11 +84,13 @@ export default function Header() {
               key={item.name}
               href={item.href}
               className={cn(
-                "font-montserrat text-sm font-medium transition-colors",
-                isActive(item.href)
-                  ? "text-tata-blue border-b-2 border-tata-blue pb-1"
-                  : "text-gray-700 hover:text-tata-blue dark:text-gray-300 dark:hover:text-white",
-              )}
+              "font-montserrat text-sm font-medium transition-colors",
+              isActive(item.href)
+                ? "text-tata-blue border-b-2 border-tata-blue pb-1"
+                : isScrolled
+                  ? "text-gray-900 hover:text-tata-blue dark:text-gray-300 dark:hover:text-white"
+                  : "text-white hover:text-tata-blue"
+            )}
             >
               {item.name}
             </Link>
