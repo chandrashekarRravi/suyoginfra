@@ -329,9 +329,8 @@ export default function ServicesPage() {
               </motion.div>
             </motion.div>
 
-            {/* Landscaping Works */}
+            {/* FRP/Fiber Works */}
             <motion.div
-              id="landscaping"
               className="scroll-mt-24 grid gap-12 md:grid-cols-2"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -347,7 +346,7 @@ export default function ServicesPage() {
               >
                 <img
                   src="/placeholder.svg?height=600&width=800"
-                  alt="Landscaping Works"
+                  alt="FRP/Fiber Works"
                   className="h-full w-full rounded-lg object-cover shadow-lg"
                 />
                 <motion.div
@@ -365,8 +364,8 @@ export default function ServicesPage() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                <span className="text-sm font-medium text-tata-blue">05</span>
-                <h2 className="mt-2 font-montserrat text-3xl font-semibold tracking-tight">Landscaping Works</h2>
+                <span className="text-sm font-medium text-tata-blue">04</span>
+                <h2 className="mt-2 font-montserrat text-3xl font-semibold tracking-tight">FRP/Fiber Works</h2>
                 <motion.p
                   className="mt-6 text-gray-600"
                   initial={{ opacity: 0, y: 20 }}
@@ -374,7 +373,9 @@ export default function ServicesPage() {
                   viewport={{ once: false }}
                   transition={{ duration: 0.6, delay: 0.6 }}
                 >
-                  Our landscaping services transform outdoor spaces into beautiful, functional environments. We specialize in creating sustainable landscapes that enhance property value while providing aesthetic appeal and environmental benefits.
+                  Our FRP expertise includes custom moldings, decorative elements, structural reinforcements, and
+                  waterproofing solutions. We use advanced materials and techniques to create lightweight yet durable
+                  components.
                 </motion.p>
                 <motion.ul
                   className="mt-6 space-y-3"
@@ -384,11 +385,11 @@ export default function ServicesPage() {
                   transition={{ duration: 0.6, delay: 0.8 }}
                 >
                   {[
-                    "Garden design and installation",
-                    "Irrigation system installation",
-                    "Hardscaping and patio construction",
-                    "Lawn care and maintenance",
-                    "Sustainable and native plant landscaping",
+                    "Custom FRP moldings and architectural elements",
+                    "Structural reinforcements",
+                    "Waterproofing solutions",
+                    "Decorative panels and facades",
+                    "Lightweight structural components",
                   ].map((item, index) => (
                     <motion.li
                       key={index}
@@ -419,7 +420,7 @@ export default function ServicesPage() {
                 </motion.div>
               </motion.div>
             </motion.div>
-
+            
             {/* Architectural Planning */}
             <motion.div
               id="planning"
