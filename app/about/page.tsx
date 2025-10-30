@@ -214,7 +214,7 @@ export default function AboutPage() {
                 <motion.img
                   src={member.image || "/placeholder.svg"}
                   alt={member.name}
-                  className="h-80 w-full object-cover object-top"
+                  className="h-80 w-full object-contain object-top"
                   initial={{ scale: 1.1 }}
                   whileInView={{ scale: 1 }}
                   viewport={{ once: false }}
