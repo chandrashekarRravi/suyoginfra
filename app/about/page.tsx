@@ -190,21 +190,15 @@ export default function AboutPage() {
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                name: "Rajesh Suyog",
-                position: "Founder & CEO",
+                name: "Ramesh G.B",
+                position: "Founder",
                 bio: "With over 30 years of experience in the construction industry, Rajesh leads the company with vision and expertise.",
                 image: "/placeholder.svg?height=400&width=400",
               },
               {
-                name: "Priya Sharma",
-                position: "Chief Operating Officer",
+                name: "Eswar Anil Kumar",
+                position: "Co-founder",
                 bio: "Priya oversees all operations, ensuring projects are delivered on time, within budget, and to the highest standards.",
-                image: "/placeholder.svg?height=400&width=400",
-              },
-              {
-                name: "Vikram Mehta",
-                position: "Chief Architect",
-                bio: "Vikram brings creative vision and technical expertise to every project, leading our design team with innovation.",
                 image: "/placeholder.svg?height=400&width=400",
               },
             ].map((member, index) => (
@@ -276,7 +270,7 @@ export default function AboutPage() {
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        Suyog Infra Solutions began its journey with turnkey telecom and optical fiber projects, establishing a strong foundation in infrastructure execution.
+                        Suyog Infra Solutions began its journey in 2019 with a vision to redefine reliability and quality in infrastructure. We started with telecom and fiber optic network projects, providing turnkey execution and technical excellence. These early successes established our credibility and built a strong foundation for our multi-domain growth.
                       </p>
                     </div>
                   ),
@@ -287,18 +281,18 @@ export default function AboutPage() {
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        Expanded into RFID and boom barrier–based smart parking systems, AV integration, and networking solutions for corporate and institutional clients.
+                        Recognizing the need for smarter infrastructure, we diversified into RFID and boom barrier–based smart parking systems, AV integration, and networking solutions for corporate and institutional clients. This phase marked our shift from traditional infrastructure to tech-enabled engineering, blending functionality with innovation.
                       </p>
                     </div>
                   ),
                 },
                 {
-                  title: "Green and Smart Solutions",
+                  title: "Expansion in EV Charging Infrastructure",
                   year: "2022",
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        Ventured into the EV charging infrastructure segment, contributing to India’s green mobility movement while strengthening expertise in landscape and irrigation automation.
+                        In 2022, Suyog Infra Solutions expanded into the EV charging infrastructure segment, supporting India’s evolving sustainable mobility ecosystem. From installation to commissioning of EV chargers, we became a trusted partner for OEMs, facility managers, and developers. This milestone reflected our commitment to green energy, cleaner transportation, and future-ready infrastructure.
                       </p>
                     </div>
                   ),
@@ -309,7 +303,7 @@ export default function AboutPage() {
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        Delivered large-scale commercial, residential, interior, and landscape development projects, becoming a trusted partner for comprehensive infrastructure solutions.
+                        By 2024, our services had grown to include end-to-end interior design, landscaping, and outdoor infrastructure solutions. We delivered large-scale commercial, residential, and institutional projects, offering a seamless blend of design, engineering, and execution. Our work in landscaping automation, irrigation systems, and architectural interiors positioned us as a one-stop partner for integrated, sustainable environments.
                       </p>
                     </div>
                   ),
@@ -320,7 +314,7 @@ export default function AboutPage() {
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        Focused on sustainable and technology-driven infrastructure, promoting eco-friendly designs, smart construction practices, and long-term value creation.
+                        As we look toward the future, Suyog Infra Solutions continues to focus on sustainability, smart construction, and eco-friendly design practices. Our commitment is to build energy-efficient, technology-driven spaces that align with India’s green vision. With expertise across civil, electrical, landscape, and automation domains, we aim to lead the next era of sustainable infrastructure and intelligent buildings.
                       </p>
                     </div>
                   ),
