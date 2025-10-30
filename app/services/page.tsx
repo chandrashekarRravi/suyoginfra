@@ -331,6 +331,7 @@ export default function ServicesPage() {
 
             {/* Landscaping Works */}
             <motion.div
+              id="landscaping"
               className="scroll-mt-24 grid gap-12 md:grid-cols-2"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
