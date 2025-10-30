@@ -31,11 +31,12 @@ const services = [
     slug: "turnkey",
   },
   {
-  title: "Landscaping Works",
-  description: "Comprehensive landscaping solutions to transform outdoor spaces into beautiful, functional environments.",
-  icon: Trees,
-  details: "Our landscaping services include garden design, irrigation systems, hardscaping, and sustainable landscaping. We create beautiful outdoor spaces that enhance property value while providing environmental benefits and aesthetic appeal.",
-  slug: "landscaping",
+    title: "FRP/Fiber Works",
+    description: "Specialized fiber-reinforced polymer solutions for durability and aesthetic enhancement.",
+    icon: Paintbrush,
+    details:
+      "Our FRP expertise includes custom moldings, decorative elements, structural reinforcements, and waterproofing solutions. We use advanced materials and techniques to create lightweight yet durable components.",
+    slug: "frp",
   },
   {
     title: "Architectural Planning",
