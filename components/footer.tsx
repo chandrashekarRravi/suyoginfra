@@ -55,9 +55,9 @@ export default function Footer() {
           >
             <h2 className="font-montserrat text-2xl font-bold tracking-tight uppercase">SUYOG INFRA</h2>
             <div className="mt-4 text-gray-400">
-              <p>Blooming Co-Working Spaces Rajajinagar</p>
-              <p className="mt-1">No 60/417, NKS Prime, Metro Station, 20th Main Rd, below Rajaji Nagar,</p>
-              <p className="mt-1">1st Block, 1st N Block, Rajajinagar, Bengaluru, Karnataka 560010</p>
+              {/* <p>Blooming Co-Working Spaces Rajajinagar</p> */}
+              <p className="mt-1">23 & 24 , 1st Floor, Kushal Garden Arcade,</p>
+              <p className="mt-1">Peenya Industrial Area, Bangalore - 560058</p>
 
               <p className="mt-4">+91-6363293112</p>
               <p className="mt-1">info@suyoginfrasolutions.com</p>
