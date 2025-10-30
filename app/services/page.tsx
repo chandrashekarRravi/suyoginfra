@@ -329,7 +329,7 @@ export default function ServicesPage() {
               </motion.div>
             </motion.div>
 
-            {/* FRP/Fiber Works */}
+            {/* Landscaping Works */}
             <motion.div
               className="scroll-mt-24 grid gap-12 md:grid-cols-2"
               initial={{ opacity: 0, y: 50 }}
@@ -346,7 +346,7 @@ export default function ServicesPage() {
               >
                 <img
                   src="/placeholder.svg?height=600&width=800"
-                  alt="FRP/Fiber Works"
+                  alt="Landscaping Works"
                   className="h-full w-full rounded-lg object-cover shadow-lg"
                 />
                 <motion.div
@@ -364,8 +364,8 @@ export default function ServicesPage() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                <span className="text-sm font-medium text-tata-blue">04</span>
-                <h2 className="mt-2 font-montserrat text-3xl font-semibold tracking-tight">FRP/Fiber Works</h2>
+                <span className="text-sm font-medium text-tata-blue">05</span>
+                <h2 className="mt-2 font-montserrat text-3xl font-semibold tracking-tight">Landscaping Works</h2>
                 <motion.p
                   className="mt-6 text-gray-600"
                   initial={{ opacity: 0, y: 20 }}
@@ -373,9 +373,7 @@ export default function ServicesPage() {
                   viewport={{ once: false }}
                   transition={{ duration: 0.6, delay: 0.6 }}
                 >
-                  Our FRP expertise includes custom moldings, decorative elements, structural reinforcements, and
-                  waterproofing solutions. We use advanced materials and techniques to create lightweight yet durable
-                  components.
+                  Our landscaping services transform outdoor spaces into beautiful, functional environments. We specialize in creating sustainable landscapes that enhance property value while providing aesthetic appeal and environmental benefits.
                 </motion.p>
                 <motion.ul
                   className="mt-6 space-y-3"
@@ -385,11 +383,11 @@ export default function ServicesPage() {
                   transition={{ duration: 0.6, delay: 0.8 }}
                 >
                   {[
-                    "Custom FRP moldings and architectural elements",
-                    "Structural reinforcements",
-                    "Waterproofing solutions",
-                    "Decorative panels and facades",
-                    "Lightweight structural components",
+                    "Garden design and installation",
+                    "Irrigation system installation",
+                    "Hardscaping and patio construction",
+                    "Lawn care and maintenance",
+                    "Sustainable and native plant landscaping",
                   ].map((item, index) => (
                     <motion.li
                       key={index}
