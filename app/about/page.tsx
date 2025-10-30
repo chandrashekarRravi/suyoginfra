@@ -193,12 +193,12 @@ export default function AboutPage() {
                 name: "Ramesh G.B",
                 position: "Founder",
                 bio: "With over 30 years of experience in the construction industry, Rajesh leads the company with vision and expertise.",
-                image: "/anil.JPG",
+                image: "/anil.JPG?height=400&width=400",
               },
               {
                 name: "Eswar Anil Kumar",
                 position: "Co-founder",
-                bio: "Priya oversees all operations, ensuring projects are delivered on time, within budget, and to the highest standards.",
+                bio: "Eswar Anil Kumar oversees all operations, ensuring projects are delivered on time, within budget, and to the highest standards.",
                 image: "/Suresh.JPG?height=400&width=400",
               },
             ].map((member, index) => (
