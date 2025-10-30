@@ -17,7 +17,7 @@ export default function ServicesPage() {
         initial={{ opacity: 0, y: 50 }}
         animate={isPageLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
         transition={{ duration: 0.8 }}
-      >
+        >
         <div className="container mx-auto px-4">
           <motion.div
             className="mx-auto max-w-3xl text-center"
