@@ -193,7 +193,7 @@ export default function AboutPage() {
                 name: "Ramesh G.B",
                 position: "Founder",
                 bio: "With over 30 years of experience in the construction industry, Rajesh leads the company with vision and expertise.",
-                image: "/anil.JPG?height=400&width=400",
+                image: "/anil.JPG",
               },
               {
                 name: "Eswar Anil Kumar",
