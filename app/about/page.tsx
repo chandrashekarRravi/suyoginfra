@@ -217,7 +217,7 @@ export default function AboutPage() {
               name: "Sunil B M",
               position: "Senior Project Manager",
               bio: "Sunil B M leads project execution with extensive experience in construction management, ensuring seamless coordination between teams, timely completion, and adherence to quality standards across all project phases.",
-              image: "/sunil-bm.JPG?height=400&width=400",
+              image: "/sunil.JPG?height=400&width=400",
             },
             ].map((member, index) => (
               <motion.div
