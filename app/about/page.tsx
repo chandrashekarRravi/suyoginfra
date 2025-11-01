@@ -190,17 +190,29 @@ export default function AboutPage() {
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                name: "Ramesh G.B",
+                name: "Eswar Anil Kumar",
                 position: "Founder",
+                bio: "Eswar Anil Kumar oversees all operations, ensuring projects are delivered on time, within budget, and to the highest standards.",
+                image: "/Suresh.JPG?height=400&width=400",
+              },
+              {
+                name: "Ramesh G.B",
+                position: "Co-founder",
                 bio: "With over 30 years of experience in the construction industry, Rajesh leads the company with vision and expertise.",
                 image: "/anil.JPG?height=400&width=400",
               },
               {
-                name: "Eswar Anil Kumar",
-                position: "Co-founder",
-                bio: "Eswar Anil Kumar oversees all operations, ensuring projects are delivered on time, within budget, and to the highest standards.",
-                image: "/Suresh.JPG?height=400&width=400",
-              },
+              name: "Sanjay Gowda",
+              position: "SCM Head",
+              bio: "Sanjay Gowda manages the entire supply chain and procurement process, ensuring timely delivery of quality materials while optimizing costs and maintaining vendor relationships.",
+              image: "/sanjay.JPG?height=400&width=400",
+            },
+            {
+              name: "Shalini",
+              position: "Architect",
+              bio: "Shalini brings creative design solutions to life, combining aesthetic vision with practical functionality to deliver innovative architectural designs that meet client requirements.",
+              image: "/shalini.JPG?height=400&width=400",
+            },
             ].map((member, index) => (
               <motion.div
                 key={index}
