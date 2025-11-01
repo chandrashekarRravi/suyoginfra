@@ -247,7 +247,16 @@ export default function ContactPage() {
       <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="overflow-hidden rounded-lg shadow-md">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1129843286094!2d77.51710107359013!3d13.028476413631704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d34750c0e5d%3A0x57308ab291673518!2sSuyog%20Infra%20Solutions!5e0!3m2!1sen!2sin!4v1761978868813!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1129843286094!2d77.51710107359013!3d13.028476413631704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d34750c0e5d%3A0x57308ab291673518!2sSuyog%20Infra%20Solutions!5e0!3m2!1sen!2sin!4v1761978868813!5m2!1sen!2sin" 
+              width="100%" 
+              height="450" 
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Suyog Infra Solutions Location"
+            ></iframe>
           </div>
         </div>
       </section>
@@ -296,23 +305,21 @@ export default function ContactPage() {
               >
                 <button
                   onClick={() => toggleFAQ(index)}
-                  className="w-full px-6 py-4 text-left transition-colors hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-tata-blue focus:ring-inset"
+                  className="flex w-full items-center justify-between px-6 py-4 text-left transition-colors hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-tata-blue focus:ring-inset"
                 >
-                  <div className="flex items-center justify-between">
-                    <h3 className="font-montserrat text-lg font-semibold text-gray-900">
-                      {faq.question}
-                    </h3>
-                    <motion.div
-                      animate={{ rotate: openFAQ === index ? 180 : 0 }}
-                      transition={{ duration: 0.2 }}
-                    >
-                      {openFAQ === index ? (
-                        <ChevronUp className="h-5 w-5 text-tata-blue" />
-                      ) : (
-                        <ChevronDown className="h-5 w-5 text-gray-400" />
-                      )}
-                    </motion.div>
-                  </div>
+                  <h3 className="font-montserrat text-lg font-semibold text-gray-900">
+                    {faq.question}
+                  </h3>
+                  <motion.div
+                    animate={{ rotate: openFAQ === index ? 180 : 0 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    {openFAQ === index ? (
+                      <ChevronUp className="h-5 w-5 text-tata-blue" />
+                    ) : (
+                      <ChevronDown className="h-5 w-5 text-gray-400" />
+                    )}
+                  </motion.div>
                 </button>
                 <AnimatePresence>
                   {openFAQ === index && (
@@ -324,7 +331,7 @@ export default function ContactPage() {
                       className="overflow-hidden"
                     >
                       <div className="px-6 pb-4">
-                        <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+                        <p className="leading-relaxed text-gray-600">{faq.answer}</p>
                       </div>
                     </motion.div>
                   )}
