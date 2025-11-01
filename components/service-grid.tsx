@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Building2, Home, Layers, Paintbrush, PenTool, Wrench } from "lucide-react"
+import { Building2, Home, Layers, PenTool, Trees, Wrench } from "lucide-react"
 import Link from "next/link"
 
 const services = [
@@ -82,7 +82,7 @@ export default function ServiceGrid() {
               {expandedService === index ? "Show less" : "Read more"}
             </button>
             <Link href={`/services#${service.slug}`}>
-              <div className="btn-learn-more">Learn more</div>
+              <div className="text-sm font-medium text-tata-blue hover:text-tata-blue/80">Learn more</div>
             </Link>
           </div>
 
