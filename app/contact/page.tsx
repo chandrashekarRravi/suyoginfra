@@ -118,7 +118,7 @@ export default function ContactPage() {
                   <div className="ml-4">
                     <h3 className="font-montserrat text-lg font-medium">Office</h3>
                     <p className="mt-1 text-gray-600">
-                      First floor, Kushal Garden Arcade, Bus stop, F23 & 24, near Systems, KIADB Housing Complex, Peenya, Bengaluru, Karnataka 560058,
+                      First floor, Kushal Garden Arcade, Bus stop, F23 & 24, near Systems, KIADB Housing Complex, Peenya,
                       <br />
                       Bangalore - 560058, Karnataka, India
                     </p>
