@@ -118,11 +118,9 @@ export default function ContactPage() {
                   <div className="ml-4">
                     <h3 className="font-montserrat text-lg font-medium">Office</h3>
                     <p className="mt-1 text-gray-600">
-                      #123, Brigade Road
+                      First floor, Kushal Garden Arcade, Bus stop, F23 & 24, near Systems, KIADB Housing Complex, Peenya, Bengaluru, Karnataka 560058,
                       <br />
-                      Bangalore - 560001
-                      <br />
-                      Karnataka, India
+                      Bangalore - 560058, Karnataka, India
                     </p>
                   </div>
                 </div>
@@ -251,7 +249,7 @@ export default function ContactPage() {
           <div className="overflow-hidden rounded-lg shadow-md">
             <iframe
               title="Office Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9932971231!2d77.60486307381792!3d12.971598915339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1679c2c3b92f%3A0x579f358eb0a27c!2sBrigade%20Rd%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1683890125037!5m2!1sen!2sin"
+              src="www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.11298432868!2d77.51710107585774!3d13.0284764136272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d34750c0e5d%3A0x57308ab291673518!2sSuyog%20Infra%20Solutions!5e0!3m2!1sen!2sin!4v1761978388098!5m2!1sen!2sin"
               width="100%"
               height="450"
               style={{ border: 0 }}
