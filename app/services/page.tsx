@@ -129,7 +129,7 @@ export default function ServicesPage() {
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
                 <img
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/civil.png?height=600&width=800"
                   alt="Civil Construction"
                   className="h-full w-full rounded-lg object-cover shadow-lg"
                 />
