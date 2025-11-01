@@ -160,7 +160,7 @@ export default function ServicesPage() {
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
                 <img
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/commertial.png?height=600&width=800"
                   alt="Interior Execution"
                   className="h-full w-full rounded-lg object-cover shadow-lg"
                 />
