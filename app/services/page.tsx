@@ -160,7 +160,7 @@ export default function ServicesPage() {
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
                 <img
-                  src="/commertial.png?height=600&width=800"
+                  src="/comertial.png?height=600&width=800"
                   alt="Interior Execution"
                   className="h-full w-full rounded-lg object-cover shadow-lg"
                 />
@@ -345,7 +345,7 @@ export default function ServicesPage() {
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
                 <img
-                  src="/landscap.jpg?height=600&width=800"
+                  src="/landscap.png?height=600&width=800"
                   alt="Landscaping Works"
                   className="h-full w-full rounded-lg object-cover shadow-lg"
                 />
