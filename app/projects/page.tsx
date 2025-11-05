@@ -441,7 +441,7 @@ const projects = [
     category: "Commercial",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "commercial/IP1.JPG?height=600&width=800",
+    image: "commercial/CP1.JPG?height=600&width=800",
     description: "A mixed-use development with residential, commercial, and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -456,7 +456,7 @@ const projects = [
     category: "Commercial",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "commercial/IP2.JPG?height=600&width=800",
+    image: "commercial/CP2.JPG?height=600&width=800",
     description: "A mixed-use development with residential, commercial, and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -471,7 +471,7 @@ const projects = [
     category: "Commercial",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "commercial/IP3.JPG?height=600&width=800",
+    image: "commercial/CP3.JPG?height=600&width=800",
     description: "A mixed-use development with residential, commercial, and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -480,24 +480,6 @@ const projects = [
       technologies: "Sustainable design, Modular construction",
     },
   },
-
-  {
-    id: 32,
-    title: "Mixed-Use Development",
-    category: "Commercial",
-    location: "Yelahanka, Bangalore",
-    year: "2023-Present",
-    image: "commercial/IP1.JPG?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
-    details: {
-      scope: "Master planning and phased construction",
-      timeline: "48 months (in progress)",
-      budget: "₹70-80 Cr",
-      technologies: "Sustainable design, Modular construction",
-    },
-  },
-  
-  
 ]
 
 export default function ProjectsPage() {
