@@ -8,7 +8,7 @@ import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
 import { usePageNavigation } from "@/hooks/use-page-navigation"
 
-const categories = ["All", "Residential", "Commercial", "Interiors", "Ongoing"]
+const categories = ["All", "Residential", "Commercial", "Interiors", "Landscap", "Ongoing"]
 
 const projects = [
   {
@@ -146,6 +146,38 @@ const projects = [
       technologies: "Sustainable design, Modular construction",
     },
   },
+  
+  {
+    id: 10,
+    title: "Mixed-Use Development",
+    category: "Landscap",
+    location: "Yelahanka, Bangalore",
+    year: "2023-Present",
+    image: "/placeholder.svg?height=600&width=800",
+    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    details: {
+      scope: "Master planning and phased construction",
+      timeline: "48 months (in progress)",
+      budget: "₹70-80 Cr",
+      technologies: "Sustainable design, Modular construction",
+    },
+  },
+  
+  {
+    id: 11,
+    title: "Mixed-Use Development",
+    category: "Landscap",
+    location: "Yelahanka, Bangalore",
+    year: "2023-Present",
+    image: "/placeholder.svg?height=600&width=800",
+    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    details: {
+      scope: "Master planning and phased construction",
+      timeline: "48 months (in progress)",
+      budget: "₹70-80 Cr",
+      technologies: "Sustainable design, Modular construction",
+    },
+  },
 ]
 
 export default function ProjectsPage() {
@@ -254,7 +286,7 @@ export default function ProjectsPage() {
                     </span>
                   </div>
                 </div>
-                <div className="p-6">
+                {/* <div className="p-6">
                   <div className="flex items-center justify-between">
                     <h3 className="font-montserrat text-xl font-semibold">{project.title}</h3>
                     <ArrowUpRight className="h-5 w-5 text-tata-blue opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
@@ -265,7 +297,7 @@ export default function ProjectsPage() {
                     <span>{project.year}</span>
                   </div>
                   <p className="mt-4 text-gray-600">{project.description}</p>
-                </div>
+                </div> */}
               </motion.div>
             ))}
           </div>
