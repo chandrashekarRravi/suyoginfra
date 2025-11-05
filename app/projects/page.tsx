@@ -14,10 +14,10 @@ const projects = [
   {
     id: 1,
     title: "Luxury Villa Complex",
-    category: "Residential",
+    category: "Interiors",
     location: "Whitefield, Bangalore",
     year: "2022",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "interior/IP1.png?height=600&width=800",
     description: "A collection of 12 premium villas with modern amenities and sustainable features.",
     details: {
       scope: "Complete construction and interior execution",
@@ -29,10 +29,10 @@ const projects = [
   {
     id: 2,
     title: "Corporate Headquarters",
-    category: "Commercial",
+    category: "Interiors",
     location: "Electronic City, Bangalore",
     year: "2021",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "interior/IP2.png?height=600&width=800",
     description: "A state-of-the-art office space designed for collaboration and productivity.",
     details: {
       scope: "Turnkey project including interiors",
@@ -44,10 +44,10 @@ const projects = [
   {
     id: 3,
     title: "Boutique Hotel Renovation",
-    category: "Commercial",
+    category: "Interiors",
     location: "MG Road, Bangalore",
     year: "2020",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "interior/IP3.png?height=600&width=800",
     description: "Complete renovation and interior redesign of a heritage property.",
     details: {
       scope: "Structural retrofitting and interior redesign",
@@ -62,7 +62,7 @@ const projects = [
     category: "Interiors",
     location: "Indiranagar, Bangalore",
     year: "2022",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "interior/IP4.png?height=600&width=800",
     description: "Luxury interior design for a high-end residential complex.",
     details: {
       scope: "Interior design and execution for 24 apartments",
@@ -74,10 +74,10 @@ const projects = [
   {
     id: 5,
     title: "Tech Park Development",
-    category: "Ongoing",
+    category: "Interiors",
     location: "Outer Ring Road, Bangalore",
     year: "2023-Present",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "interior/IP5.png?height=600&width=800",
     description: "A modern tech park with collaborative spaces and advanced infrastructure.",
     details: {
       scope: "Complete construction from foundation to finish",
@@ -89,10 +89,10 @@ const projects = [
   {
     id: 6,
     title: "Residential Tower",
-    category: "Residential",
+    category: "Interiors",
     location: "Hebbal, Bangalore",
     year: "2021",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "interior/IP6.png?height=600&width=800",
     description: "A 20-story residential tower with premium amenities and smart features.",
     details: {
       scope: "Complete construction and common area interiors",
@@ -104,10 +104,10 @@ const projects = [
   {
     id: 7,
     title: "Shopping Mall",
-    category: "Commercial",
+    category: "Interiors",
     location: "Koramangala, Bangalore",
     year: "2019",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "interior/IP7.png?height=600&width=800",
     description: "A multi-level shopping mall with entertainment zones and food courts.",
     details: {
       scope: "Complete construction and interior execution",
@@ -122,7 +122,7 @@ const projects = [
     category: "Interiors",
     location: "UB City, Bangalore",
     year: "2022",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "interior/IP8.png?height=600&width=800",
     description: "Bespoke interior design for a high-end penthouse with panoramic city views.",
     details: {
       scope: "Complete interior design and execution",
@@ -134,10 +134,10 @@ const projects = [
   {
     id: 9,
     title: "Mixed-Use Development",
-    category: "Ongoing",
+    category: "Interiors",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "interior/IP9.png?height=600&width=800",
     description: "A mixed-use development with residential, commercial, and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -150,10 +150,10 @@ const projects = [
   {
     id: 10,
     title: "Mixed-Use Development",
-    category: "Landscap",
+    category: "Interiors",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "interior/IP10.png?height=600&width=800",
     description: "A mixed-use development with residential, commercial, and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
