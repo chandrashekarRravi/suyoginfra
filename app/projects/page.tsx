@@ -8,7 +8,7 @@ import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
 import { usePageNavigation } from "@/hooks/use-page-navigation"
 
-const categories = ["All", "Residential", "Commercial", "Interiors", "Landscap", "Ongoing"]
+const categories = ["All", "Residential", "Commercial", "Interiors", "Landscap"]
 
 const projects = [
   {
@@ -644,7 +644,7 @@ export default function ProjectsPage() {
                       </div>
 
                       <h2 className="font-montserrat text-3xl font-semibold">{project.title}</h2>
-                      <div className="mt-2 flex items-center text-sm text-gray-500">
+                      {/* <div className="mt-2 flex items-center text-sm text-gray-500">
                         <span>{project.location}</span>
                         <span className="mx-2">•</span>
                         <span>{project.year}</span>
@@ -652,7 +652,7 @@ export default function ProjectsPage() {
                         <span className="rounded-full bg-tata-blue/10 px-3 py-1 text-xs font-medium text-tata-blue">
                           {project.category}
                         </span>
-                      </div>
+                      </div> */}
 
                       <p className="mt-6 text-gray-600">{project.description}</p>
 
