@@ -441,7 +441,7 @@ const projects = [
     category: "Commercial",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "commercial/CP1.jpg?height=600&width=800",
+    image: "commercial/CP1.png?height=600&width=800",
     description: "A mixed-use development with residential, commercial, and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
