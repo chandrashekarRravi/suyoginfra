@@ -643,7 +643,7 @@ export default function ProjectsPage() {
                         />
                       </div>
 
-                      <h2 className="font-montserrat text-3xl font-semibold">{project.title}</h2>
+                      {/* <h2 className="font-montserrat text-3xl font-semibold">{project.title}</h2> */}
                       {/* <div className="mt-2 flex items-center text-sm text-gray-500">
                         <span>{project.location}</span>
                         <span className="mx-2">•</span>
