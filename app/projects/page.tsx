@@ -654,7 +654,7 @@ export default function ProjectsPage() {
                         </span>
                       </div> */}
 
-                      <p className="mt-6 text-gray-600">{project.description}</p>
+                      {/* <p className="mt-6 text-gray-600">{project.description}</p>
 
                       <div className="mt-8 grid gap-6 sm:grid-cols-2">
                         <div className="rounded-lg bg-gray-50 p-4">
@@ -673,7 +673,7 @@ export default function ProjectsPage() {
                           <h3 className="font-montserrat text-lg font-semibold">Technologies Used</h3>
                           <p className="mt-2 text-gray-600">{project.details.technologies}</p>
                         </div>
-                      </div>
+                      </div> */}
 
                       <div className="mt-8 flex justify-center">
                         <Button className="bg-tata-blue text-white hover:bg-tata-blue/90 hover:text-white">
