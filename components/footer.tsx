@@ -124,14 +124,22 @@ export default function Footer() {
                 <ArrowRight className="ml-1 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
               </Link>
               <span className="text-gray-600">|</span>
-              <Link className="text-sm text-gray-400 transition-colors hover:text-white" href="/brochure">
+              {/* <Link className="text-sm text-gray-400 transition-colors hover:text-white" href="/brochure">
                 Download Brochure
-              </Link>
+              </Link> */}
             </motion.div>
 
             {/* Footer note */}
             <p className="text-sm text-gray-400">
-              © {new Date().getFullYear()} Suyog Infra Solutions. All rights reserved.
+              © {new Date().getFullYear()} Suyog Infra Solutions. All rights reserved. |{" "}
+              <a
+                href="https://www.avaio.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:underline"
+              >
+                AVAIO Ads Matrix
+              </a>
             </p>
           </div>
         </motion.div>
