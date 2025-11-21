@@ -9,11 +9,11 @@ import { cn } from "@/lib/utils"
 const testimonials = [
   {
     id: 1,
-    name: "Rajesh Sharma",
-    position: "CEO, Sharma Properties",
-    
+    name: "Rajath N",
+    position: "Co-founder - Velociti",
+    image: "/rajath.jpg?height=200&width=200",
     content:
-      "Suyog Infra Solutions transformed our vision into reality with exceptional attention to detail. Their team's expertise in construction and project management ensured our commercial complex was delivered on time and within budget. The quality of work speaks for itself.",
+      "Suyog is one of the best teams I have come across. Full on energy. They have successfully delivered a landscape project for us and they were able to match our expectations. Now I have given the second project of interiors and I'm quite confident that they will meet the expectations this time as well.",
     rating: 5,
   },
   {
