@@ -95,8 +95,8 @@ export default function ContactPage() {
                   </div>
                   <div className="ml-4">
                     <h3 className="font-montserrat text-lg font-medium">Phone</h3>
-                    <p className="mt-1 text-gray-600">+91 80 2345 6789</p>
-                    <p className="text-gray-600">+91 98765 43210 (Sales)</p>
+                    <p className="mt-1 text-gray-600">+91 9886854676</p>
+                    <p className="text-gray-600">+91 6363293112‬</p>
                   </div>
                 </div>
 
