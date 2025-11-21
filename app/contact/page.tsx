@@ -95,8 +95,8 @@ export default function ContactPage() {
                   </div>
                   <div className="ml-4">
                     <h3 className="font-montserrat text-lg font-medium">Phone</h3>
-                    <p className="mt-1 text-gray-600">+91 9886854676</p>
-                    <p className="text-gray-600">+91 6363293112‬</p>
+                    <p className="mt-1 text-gray-600">+91 98868 54676</p>
+                    <p className="text-gray-600">+91 63632 93112‬</p>
                   </div>
                 </div>
 
@@ -209,7 +209,7 @@ export default function ContactPage() {
                           name="phone"
                           value={formState.phone}
                           onChange={handleChange}
-                          placeholder="+91 98765 43210"
+                          placeholder="+91 63632 93112‬"
                           required
                         />
                       </div>
