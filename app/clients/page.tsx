@@ -21,59 +21,32 @@ import SunMobility from "../clients/sunmobility.png"
 import Velociti from "../clients/velociti.png"
 
 const testimonials = [
-  {
+   {
     id: 1,
-    name: "Rajesh Sharma",
-    position: "CEO, Sharma Properties",
-    image: "/placeholder.svg?height=200&width=200",
+    name: "Rajath N",
+    position: "Co-founder - Velociti",
+    image: "/rajath.jpg?height=200&width=200",
     content:
-      "Suyog Infra Solutions transformed our vision into reality with exceptional attention to detail. Their team's expertise in construction and project management ensured our commercial complex was delivered on time and within budget. The quality of work speaks for itself.",
+      "Suyog is one of the best teams I have come across. Full on energy. They have successfully delivered a landscape project for us and they were able to match our expectations. Now I have given the second project of interiors and I'm quite confident that they will meet the expectations this time as well.",
     rating: 5,
   },
   {
     id: 2,
-    name: "Priya Mehta",
-    position: "Director, Mehta Enterprises",
-    image: "/placeholder.svg?height=200&width=200",
+    name: "Pavan Sir",
+    position: "Designation - VP Sales Marketing and CRM.",
+    image: "/pavan.png?height=200&width=200",
     content:
-      "We've worked with Suyog Infra on multiple projects over the past decade. Their consistent quality, innovative solutions, and professional approach make them our go-to construction partner. They truly understand our requirements and deliver beyond expectations.",
+      "We appreciate Suyog for the excellent landscape execution carried out at our IRA by the Banks – Sales Office. The work was executed with great attention to detail, quality materials, and a clear understanding of the design intent. The landscaping has significantly enhanced the overall aesthetics of the sales office, creating a welcoming and premium environment for our clients. Timelines were adhered to, coordination was smooth, and the site was well managed throughout the execution. Overall, a commendable job and a reliable partner for quality landscape works. Highly recommended",
     rating: 5,
   },
   {
     id: 3,
-    name: "Vikram Reddy",
-    position: "Owner, Reddy Residences",
-    image: "/placeholder.svg?height=200&width=200",
+    name: "Principal Architect",
+    position: "At MMR Universeal ventures pvt ltd",
+    image: "/Principal Architect.jpeg?height=200&width=200",
     content:
-      "The renovation of our heritage property was a complex project requiring specialized skills. Suyog Infra not only preserved the historical elements but also seamlessly integrated modern amenities. Their attention to detail and craftsmanship is unmatched.",
+      "The most effective and hardworking team and professionals ever met, from basic specifications of materials to the hardest new technology in material, they have all the inputs and justifications, extremely impressed by executed works and found a good association for future projects.",
     rating: 4,
-  },
-  {
-    id: 4,
-    name: "Ananya Desai",
-    position: "Architect, AD Associates",
-    image: "/placeholder.svg?height=200&width=200",
-    content:
-      "As an architect, I value construction partners who understand design intent and execute with precision. Suyog Infra consistently delivers on both fronts. Their technical expertise and collaborative approach make them an ideal partner for complex architectural projects.",
-    rating: 5,
-  },
-  {
-    id: 5,
-    name: "Suresh Kumar",
-    position: "MD, Global Tech Solutions",
-    image: "/placeholder.svg?height=200&width=200",
-    content:
-      "Our office space renovation was handled with utmost professionalism by Suyog Infra. They understood our need for minimal disruption to ongoing operations and executed the project in phases. The result is a modern, functional workspace that has significantly improved employee satisfaction.",
-    rating: 5,
-  },
-  {
-    id: 6,
-    name: "Meera Patel",
-    position: "Homeowner",
-    image: "/placeholder.svg?height=200&width=200",
-    content:
-      "Building our dream home was a stress-free experience thanks to Suyog Infra. From the initial design discussions to the final handover, they kept us informed and involved at every stage. The quality of construction and attention to our specific requirements exceeded our expectations.",
-    rating: 5,
   },
 ]
 
