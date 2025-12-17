@@ -198,7 +198,7 @@ export default function AboutPage() {
               {
                 name: "Ramesh G.B",
                 position: "Co-founder",
-                bio: "With over 10+ years of experience in the construction industry, Ramesh leads the company with vision and expertise.",
+                bio: "With over 10 + years of experience in the construction industry, Ramesh leads the company with vision and expertise.",
                 image: "/anil.JPG?height=400&width=400",
               },
               {
