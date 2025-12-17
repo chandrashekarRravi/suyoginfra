@@ -198,7 +198,7 @@ export default function AboutPage() {
               {
                 name: "Ramesh G.B",
                 position: "Co-founder",
-                bio: "With over 30 years of experience in the construction industry, Rajesh leads the company with vision and expertise.",
+                bio: "With over 10+ years of experience in the construction industry, Ramesh leads the company with vision and expertise.",
                 image: "/anil.JPG?height=400&width=400",
               },
               {
@@ -214,7 +214,7 @@ export default function AboutPage() {
               image: "/shalini.JPG?height=400&width=400",
             },
             {
-              name: "Sunil B M",
+              name: "Hareesha M",
               position: "Senior Project Manager",
               bio: "Sunil B M leads project execution with extensive experience in construction management, ensuring seamless coordination between teams, timely completion, and adherence to quality standards across all project phases.",
               image: "/sunil.JPG?height=400&width=400",
