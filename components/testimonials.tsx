@@ -20,7 +20,7 @@ const testimonials = [
     id: 2,
     name: "Pavan Sir",
     position: "Designation - VP Sales Marketing and CRM.",
-    image: "/pavan.PNG?height=200&width=200",
+    image: "/pavan.png?height=200&width=200",
     content:
       "We appreciate Suyog for the excellent landscape execution carried out at our IRA by the Banks – Sales Office. The work was executed with great attention to detail, quality materials, and a clear understanding of the design intent. The landscaping has significantly enhanced the overall aesthetics of the sales office, creating a welcoming and premium environment for our clients. Timelines were adhered to, coordination was smooth, and the site was well managed throughout the execution. Overall, a commendable job and a reliable partner for quality landscape works. Highly recommended",
     rating: 5,
@@ -29,19 +29,10 @@ const testimonials = [
     id: 3,
     name: "Principal Architect",
     position: "At MMR Universeal ventures pvt ltd",
-    image: "/Principal Architect.JPEG?height=200&width=200",
+    image: "/Principal Architect.jpeg?height=200&width=200",
     content:
       "The most effective and hardworking team and professionals ever met, from basic specifications of materials to the hardest new technology in material, they have all the inputs and justifications, extremely impressed by executed works and found a good association for future projects.",
     rating: 4,
-  },
-  {
-    id: 4,
-    name: "Ananya Desai",
-    position: "Architect, AD Associates",
-    image: "/placeholder.svg?height=200&width=200",
-    content:
-      "As an architect, I value construction partners who understand design intent and execute with precision. Suyog Infra consistently delivers on both fronts. Their technical expertise and collaborative approach make them an ideal partner for complex architectural projects.",
-    rating: 5,
   },
 ]
 
