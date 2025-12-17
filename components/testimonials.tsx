@@ -18,20 +18,24 @@ const testimonials = [
   },
   {
     id: 2,
-    name: "Priya Mehta",
-    position: "Director, Mehta Enterprises",
-    image: "/placeholder.svg?height=200&width=200",
+    name: "Pavan Sir",
+    position: "Designation - VP Sales Marketing and CRM.",
+    image: "/pavan.PNG?height=200&width=200",
     content:
-      "We've worked with Suyog Infra on multiple projects over the past decade. Their consistent quality, innovative solutions, and professional approach make them our go-to construction partner. They truly understand our requirements and deliver beyond expectations.",
+      "We appreciate Suyog for the excellent landscape execution carried out at our IRA by the Banks – Sales Office. The work was executed with great attention to detail, quality materials, and a clear understanding of the design intent.
+
+The landscaping has significantly enhanced the overall aesthetics of the sales office, creating a welcoming and premium environment for our clients. Timelines were adhered to, coordination was smooth, and the site was well managed throughout the execution.
+
+Overall, a commendable job and a reliable partner for quality landscape works. Highly recommended",
     rating: 5,
   },
   {
     id: 3,
-    name: "Vikram Reddy",
-    position: "Owner, Reddy Residences",
-    image: "/placeholder.svg?height=200&width=200",
+    name: "Principal Architect",
+    position: "At MMR Universeal ventures pvt ltd",
+    image: "/Principal Architect.JPEG?height=200&width=200",
     content:
-      "The renovation of our heritage property was a complex project requiring specialized skills. Suyog Infra not only preserved the historical elements but also seamlessly integrated modern amenities. Their attention to detail and craftsmanship is unmatched.",
+      "The most effective and hardworking team and professionals ever met, from basic specifications of materials to the hardest new technology in material, they have all the inputs and justifications, extremely impressed by executed works and found a good association for future projects.",
     rating: 4,
   },
   {
