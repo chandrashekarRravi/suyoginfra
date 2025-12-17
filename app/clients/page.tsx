@@ -46,7 +46,7 @@ const testimonials = [
     image: "/Principal Architect.jpeg?height=200&width=200",
     content:
       "The most effective and hardworking team and professionals ever met, from basic specifications of materials to the hardest new technology in material, they have all the inputs and justifications, extremely impressed by executed works and found a good association for future projects.",
-    rating: 4,
+    rating: 5,
   },
 ]
 
