@@ -198,7 +198,7 @@ export default function AboutPage() {
               {
                 name: "Ramesh G.B",
                 position: "Co-founder",
-                bio: "With over 10 + years of experience in the construction industry, Ramesh leads the company with vision and expertise.",
+                bio: "With over 10+ years of experience in the construction industry, Ramesh leads the company with vision and expertise.",
                 image: "/anil.JPG?height=400&width=400",
               },
               {
@@ -213,18 +213,24 @@ export default function AboutPage() {
               bio: "Shalini brings creative design solutions to life, combining aesthetic vision with practical functionality to deliver innovative architectural designs that meet client requirements.",
               image: "/shalini.JPG?height=400&width=400",
             },
-            // {
-            //   name: "Hareesha M",
-            //   position: "Senior Project Manager",
-            //   bio: "Sunil B M leads project execution with extensive experience in construction management, ensuring seamless coordination between teams, timely completion, and adherence to quality standards across all project phases.",
-            //   image: "/sunil.JPG?height=400&width=400",
-            // },
+            {
+              name: "Hareesha M",
+              position: "Senior Project Manager",
+              bio: "Hareesha M leads project execution with extensive experience in construction management, ensuring seamless coordination between teams, timely completion, and adherence to quality standards across all project phases.",
+              image: "/hareesha.JPG?height=400&width=400",
+            },
             {
               name: "Sunil",
               position: "Senior Project Manager",
-              bio: "Hareesha M leads project execution with extensive experience in construction management, ensuring seamless coordination between teams, timely completion, and adherence to quality standards across all project phases.",
+              bio: "Sunil leads project execution with extensive experience in construction management, ensuring seamless coordination between teams, timely completion, and adherence to quality standards across all project phases.",
               image: "/sunil.JPG?height=400&width=400",
             },
+            {
+              name: "Gopal V S",
+              position: "Project Manager - Landscaping",
+              bio: "Gopal leads landscape project execution with specialized expertise in outdoor space transformation. He ensures seamless coordination between design and site teams, prioritizing environmental standards, timely completion, and superior aesthetic quality across all project phases.",
+              image: "/gopal.JPG?height=400&width=400",
+            }
             ].map((member, index) => (
               <motion.div
                 key={index}
