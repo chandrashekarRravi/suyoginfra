@@ -214,12 +214,6 @@ export default function AboutPage() {
               image: "/shalini.JPG?height=400&width=400",
             },
             {
-              name: "Hareesha M",
-              position: "Senior Project Manager",
-              bio: "Hareesha M leads project execution with extensive experience in construction management, ensuring seamless coordination between teams, timely completion, and adherence to quality standards across all project phases.",
-              image: "/hareesha.JPG?height=400&width=400",
-            },
-            {
               name: "Sunil",
               position: "Senior Project Manager",
               bio: "Sunil leads project execution with extensive experience in construction management, ensuring seamless coordination between teams, timely completion, and adherence to quality standards across all project phases.",
@@ -230,6 +224,12 @@ export default function AboutPage() {
               position: "Project Manager - Landscaping",
               bio: "Gopal leads landscape project execution with specialized expertise in outdoor space transformation. He ensures seamless coordination between design and site teams, prioritizing environmental standards, timely completion, and superior aesthetic quality across all project phases.",
               image: "/gopal.JPG?height=400&width=400",
+            },
+            {
+              name: "Hareesha M",
+              position: "Project Manager - EV & Automation",
+              bio: "Hareesha M provides strategic oversight in the EV and automation segment, leveraging deep technical expertise to drive the integration of advanced automation systems. He excels in managing complex project lifecycles, ensuring cross-functional team alignment and the delivery of innovative, high-performance solutions in sustainable mobility.",
+              image: "/hareesha.JPG?height=400&width=400",
             }
             ].map((member, index) => (
               <motion.div
