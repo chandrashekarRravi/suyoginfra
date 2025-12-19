@@ -71,7 +71,7 @@ export default function ContactPage() {
               Contact <span className="text-tata-blue">Us</span>
             </h1>
             <p className="mt-6 text-lg text-gray-600">
-              Get in touch with our team to discuss your project requirements or to learn more about our services.
+              Get in touch with our team to discuss your project or learn more about our services.
             </p>
           </div>
         </div>
@@ -84,8 +84,7 @@ export default function ContactPage() {
             <div>
               <h2 className="font-montserrat text-3xl font-semibold tracking-tight">Get in Touch</h2>
               <p className="mt-4 text-gray-600">
-                We're here to answer any questions you may have about our services. Reach out to us and we'll respond as
-                soon as we can.
+                We are here to answer your questions about our services. Reach out to us, and we will respond as soon as possible.
               </p>
 
               <div className="mt-8 space-y-6">
@@ -273,27 +272,27 @@ export default function ContactPage() {
               {
                 question: "What areas do you serve?",
                 answer:
-                  "We primarily serve Bangalore and surrounding areas, but we also take up projects across Karnataka and other parts of South India depending on the scope and requirements.",
+                  "We mainly serve Bangalore and nearby areas. We also handle projects across Karnataka and other parts of South India based on the project scope and requirements.",
               },
               {
                 question: "How do you estimate project costs?",
                 answer:
-                  "Our estimation process involves a detailed analysis of your requirements, site conditions, materials, labor, and timeline. We provide transparent breakdowns of all costs involved to help you make informed decisions.",
+                  "We estimate costs by reviewing your requirements, site conditions, materials, labor, and timeline. We provide a clear and transparent cost breakdown to help you make informed decisions.",
               },
               {
                 question: "What is your typical project timeline?",
                 answer:
-                  "Project timelines vary based on scope and complexity. Residential projects typically take 12-18 months, while commercial projects may take 18-36 months. We provide detailed timelines during the initial consultation.",
+                  "Project timelines depend on the scope and complexity. Residential projects usually take 12 to 18 months. Commercial projects may take 18 to 36 months. We share a detailed timeline during the initial consultation.",
               },
               {
                 question: "Do you offer warranties on your work?",
                 answer:
-                  "Yes, we offer a standard 5-year structural warranty and a 1-year warranty on all other aspects of our work. Extended warranties are available for specific components upon request.",
+                  "Yes, we provide a 5-year structural warranty and a 1-year warranty on all other work. You can request extended warranties for specific components.",
               },
               {
                 question: "Can you work with my architect or designer?",
                 answer:
-                  "We regularly collaborate with external architects and designers. Our team is experienced in translating design visions into reality while maintaining the integrity of the original concept.",
+                  "Yes, we often collaborate with external architects and designers. Our team turns design visions into reality while keeping the original concept intact.",
               },
             ].map((faq, index) => (
               <motion.div
