@@ -138,7 +138,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "interior/IP9.png?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -154,7 +154,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "interior/IP10.png?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -170,7 +170,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "landscaping/LP1.JPG?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -185,7 +185,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "landscaping/LP2.JPG?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -200,7 +200,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "landscaping/LP3.JPG?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -215,7 +215,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "landscaping/LP4.JPG?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -230,7 +230,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "landscaping/LP5.JPG?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -245,7 +245,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "landscaping/LP6.JPG?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -260,7 +260,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "landscaping/LP7.JPG?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -275,7 +275,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "landscaping/LP8.JPG?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -290,7 +290,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "landscaping/LP9.JPG?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -306,7 +306,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "residential/RP1.png?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -321,7 +321,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "residential/RP2.png?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -336,7 +336,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "residential/RP3.png?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -351,7 +351,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "residential/RP4.png?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -366,7 +366,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "residential/RP5.png?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -381,7 +381,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "residential/RP6.png?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -396,7 +396,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "residential/RP7.png?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -411,7 +411,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "residential/RP8.png?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -426,7 +426,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "residential/RP9.png?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -442,7 +442,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "comm/cp1.jpg?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -457,7 +457,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "comm/cp2.JPG?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
@@ -472,7 +472,7 @@ const projects = [
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
     image: "comm/cp3.JPG?height=600&width=800",
-    description: "A mixed-use development with residential, commercial, and retail spaces.",
+    description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
       timeline: "48 months (in progress)",
