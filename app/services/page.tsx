@@ -187,7 +187,7 @@ export default function ServicesPage() {
                   viewport={{ once: false }}
                   transition={{ duration: 0.6, delay: 0.6 }}
                 >
-                  We design and build living and working spaces that balance style and function. We offer space planning, material selection, custom furniture, lighting design, and final styling.
+                  We design and build living and working spaces that balance style and function. We offer space planning, material selection, custom furniture, lighting design and final styling.
                 </motion.p>
                 <motion.ul
                   className="mt-6 space-y-3"
@@ -271,7 +271,7 @@ export default function ServicesPage() {
                     "Design and engineering services",
                     "Material procurement and quality control",
                     "Construction and interior execution",
-                    "Testing, commissioning, and handover",
+                    "Testing, commissioning and handover",
                   ].map((item, index) => (
                     <motion.li
                       key={index}
@@ -438,7 +438,7 @@ export default function ServicesPage() {
                   viewport={{ once: false }}
                   transition={{ duration: 0.6, delay: 0.4 }}
                 >
-                  We provide architectural planning services that turn your ideas into clear designs. We handle conceptual design, space planning, 3D visualization, regulatory approvals, and detailed construction documents.
+                  We provide architectural planning services that turn your ideas into clear designs. We handle conceptual design, space planning, 3D visualization, regulatory approvals and detailed construction documents.
                 </motion.p>
                 <motion.ul
                   className="mt-6 space-y-3"
@@ -549,7 +549,7 @@ export default function ServicesPage() {
                   viewport={{ once: false }}
                   transition={{ duration: 0.6, delay: 0.6 }}
                 >
-                  We transform outdated spaces into modern and functional environments. We handle structural repairs, space changes, system upgrades, and visual improvements.
+                  We transform outdated spaces into modern and functional environments. We handle structural repairs, space changes, system upgrades and visual improvements.
                 </motion.p>
                 <motion.ul
                   className="mt-6 space-y-3"
@@ -632,7 +632,7 @@ export default function ServicesPage() {
                 step: "01",
                 title: "Consultation",
                 description:
-                  "We start with a detailed discussion to understand your needs, vision, and budget.",
+                  "We start with a detailed discussion to understand your needs, vision and budget.",
               },
               {
                 step: "02",
