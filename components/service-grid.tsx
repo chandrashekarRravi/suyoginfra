@@ -8,7 +8,7 @@ import Link from "next/link"
 const services = [
   {
     title: "Civil Construction",
-    description: "End-to-end construction services for residential and commercial projects with precision engineering.",
+    description: "We provide end-to-end construction services for residential and commercial projects with precision.",
     icon: Building2,
     details:
       "Our civil construction services encompass everything from foundation work to structural engineering, ensuring durability and compliance with all safety standards. We handle projects of all scales with the same level of dedication and expertise.",
@@ -16,7 +16,7 @@ const services = [
   },
   {
     title: "Residential & Commercial Interiors",
-    description: "Transforming spaces with innovative design solutions tailored to your lifestyle and brand identity.",
+    description: "We transform spaces with innovative designs tailored to your lifestyle and brand.",
     icon: Home,
     details:
       "We create living and working environments that perfectly balance aesthetics and functionality. Our interior solutions include space planning, material selection, custom furniture, lighting design, and final styling.",
@@ -24,7 +24,7 @@ const services = [
   },
   {
     title: "Turnkey Execution",
-    description: "Comprehensive project management from concept to completion with single-point accountability.",
+    description: "We manage projects from concept to completion with single-point responsibility.",
     icon: Layers,
     details:
       "Our turnkey solutions provide end-to-end project execution with a single point of contact, eliminating coordination hassles. We handle everything from design and procurement to construction and handover.",
@@ -32,7 +32,7 @@ const services = [
   },
   {
     title: "Landscaping Works",
-    description: "Comprehensive landscaping solutions to transform outdoor spaces into beautiful, functional environments.",
+    description: "We create beautiful and functional outdoor spaces with complete landscaping solutions.",
     icon: Trees,
     details:
       "Our landscaping services include garden design, irrigation systems, hardscaping, and sustainable landscaping. We create beautiful outdoor spaces that enhance property value while providing environmental benefits and aesthetic appeal.",
@@ -40,7 +40,7 @@ const services = [
   },
   {
     title: "Architectural Planning",
-    description: "Innovative design solutions that optimize space utilization and enhance functionality.",
+    description: "We design smart layouts that optimize space and improve functionality.",
     icon: PenTool,
     details:
       "Our architectural planning services include conceptual design, space planning, 3D visualization, regulatory compliance, and detailed construction documentation to bring your vision to life.",
@@ -48,7 +48,7 @@ const services = [
   },
   {
     title: "Renovation & Retrofits",
-    description: "Breathing new life into existing structures while preserving their character and integrity.",
+    description: "We upgrade existing structures while preserving their character and strength.",
     icon: Wrench,
     details:
       "We specialize in transforming outdated spaces into modern, functional environments. Our renovation services include structural repairs, space reconfiguration, systems upgrades, and aesthetic enhancements.",
