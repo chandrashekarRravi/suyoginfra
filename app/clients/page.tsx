@@ -32,7 +32,7 @@ const testimonials = [
   },
   {
     id: 2,
-    name: "Pavan Sir",
+    name: "Pavan",
     position: "Designation - VP Sales Marketing and CRM.",
     image: "/pavan.png?height=200&width=200",
     content:
