@@ -82,17 +82,15 @@ export default function WhySuyog() {
           <div className=" bg-gray-50 p-8 rounded-lg shadow-md mb-16">
             <h3 className="font-montserrat text-2xl font-semibold text-center">Our Philosophy</h3>
             <p className="mt-4 text-gray-600 text-center">
-              "We build beyond blueprints." At Suyog Infra, we believe that exceptional construction is about more than
-              following plans – it's about understanding the vision behind them and bringing it to life with precision,
-              innovation, and integrity.
+              “We build beyond blueprints.”
+              At Suyog Infra, we go beyond plans. We understand your vision and bring it to life with precision, innovation, and integrity.
             </p>
           </div>
           <h2 className="font-montserrat text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl text-center">
             Why Choose <span className="text-tata-blue">Suyog Infra</span>
           </h2>
           <p className="mt-6 text-lg text-gray-600 text-center">
-            For over two decades, we've been building more than just structures – we've been building trust, excellence,
-            and lasting relationships with our clients.
+            For over two decades, we have built more than structures. We have built trust, excellence, and lasting relationships with our clients.
           </p>
 
           <div className="mt-12 grid grid-cols-2 gap-8 md:grid-cols-4">
