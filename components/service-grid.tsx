@@ -11,7 +11,7 @@ const services = [
     description: "We provide end-to-end construction services for residential and commercial projects with precision.",
     icon: Building2,
     details:
-      "Our civil construction services encompass everything from foundation work to structural engineering, ensuring durability and compliance with all safety standards. We handle projects of all scales with the same level of dedication and expertise.",
+      "We handle civil construction from foundation to structure. We ensure strength, durability and full safety compliance. We manage projects of all sizes with equal care and expertise.",
     slug: "civil",
   },
   {
@@ -19,7 +19,7 @@ const services = [
     description: "We transform spaces with innovative designs tailored to your lifestyle and brand.",
     icon: Home,
     details:
-      "We create living and working environments that perfectly balance aesthetics and functionality. Our interior solutions include space planning, material selection, custom furniture, lighting design, and final styling.",
+      "We design living and working spaces that balance beauty and function. Our services include space planning, material selection, custom furniture, lighting and final styling.",
     slug: "interior",
   },
   {
@@ -27,7 +27,7 @@ const services = [
     description: "We manage projects from concept to completion with single-point responsibility.",
     icon: Layers,
     details:
-      "Our turnkey solutions provide end-to-end project execution with a single point of contact, eliminating coordination hassles. We handle everything from design and procurement to construction and handover.",
+      "We deliver complete project execution with a single point of contact. We manage design, procurement, construction and final handover.",
     slug: "turnkey",
   },
   {
@@ -35,7 +35,7 @@ const services = [
     description: "We create beautiful and functional outdoor spaces with complete landscaping solutions.",
     icon: Trees,
     details:
-      "Our landscaping services include garden design, irrigation systems, hardscaping, and sustainable landscaping. We create beautiful outdoor spaces that enhance property value while providing environmental benefits and aesthetic appeal.",
+      "We design and build outdoor spaces that add beauty and value. Our services include garden design, irrigation, hardscaping and sustainable landscaping.",
     slug: "landscaping",
   },
   {
@@ -43,7 +43,7 @@ const services = [
     description: "We design smart layouts that optimize space and improve functionality.",
     icon: PenTool,
     details:
-      "Our architectural planning services include conceptual design, space planning, 3D visualization, regulatory compliance, and detailed construction documentation to bring your vision to life.",
+      "We turn ideas into build-ready designs. Our services include concept design, space planning, 3D views, approvals and detailed drawings.",
     slug: "planning",
   },
   {
@@ -51,7 +51,7 @@ const services = [
     description: "We upgrade existing structures while preserving their character and strength.",
     icon: Wrench,
     details:
-      "We specialize in transforming outdated spaces into modern, functional environments. Our renovation services include structural repairs, space reconfiguration, systems upgrades, and aesthetic enhancements.",
+      "We transform outdated spaces into modern, functional environments. We handle repairs, space changes, system upgrades and visual improvements.",
     slug: "renovation",
   },
 ]
