@@ -84,7 +84,7 @@ export default function ContactPage() {
             <div>
               <h2 className="font-montserrat text-3xl font-semibold tracking-tight">Get in Touch</h2>
               <p className="mt-4 text-gray-600">
-                We are here to answer your questions about our services. Reach out to us, and we will respond as soon as possible.
+                We are here to answer your questions about our services. Reach out to us and we will respond as soon as possible.
               </p>
 
               <div className="mt-8 space-y-6">
@@ -277,7 +277,7 @@ export default function ContactPage() {
               {
                 question: "How do you estimate project costs?",
                 answer:
-                  "We estimate costs by reviewing your requirements, site conditions, materials, labor, and timeline. We provide a clear and transparent cost breakdown to help you make informed decisions.",
+                  "We estimate costs by reviewing your requirements, site conditions, materials, labor and timeline. We provide a clear and transparent cost breakdown to help you make informed decisions.",
               },
               {
                 question: "What is your typical project timeline?",
