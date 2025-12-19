@@ -11,7 +11,7 @@ const stats = [
     value: "7+",
     numericValue: 7,
     label: "Years Experience",
-    description: "Two decades of excellence in the construction industry",
+    description: "Two decades of excellence in construction industry",
   },
   {
     icon: Users,
