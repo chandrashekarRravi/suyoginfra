@@ -101,7 +101,7 @@ export default function ClientsPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              We've had the privilege of working with leading organizations and individuals across various sectors.
+              We work with leading organizations and individuals across various sectors.
             </motion.p>
           </motion.div>
         </div>
@@ -420,7 +420,7 @@ export default function ClientsPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Contact us today to discuss how we can help bring your construction and interior vision to life.
+            Contact us today to discuss how we can bring your construction and interior vision to life.
           </motion.p>
           <motion.div
             className="mt-8"
