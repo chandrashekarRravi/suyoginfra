@@ -74,16 +74,16 @@ export default function Footer() {
             <h3 className="font-montserrat text-sm font-semibold uppercase tracking-wider text-gray-300">Services</h3>
             <div className="mt-4 grid grid-cols-2 gap-y-3 gap-x-8 text-gray-400">
               <ul className="space-y-3">
-                <li><Link href="/services#construction" className="transition-colors hover:text-tata-blue">Construction</Link></li>
-                <li><Link href="/services#ev" className="transition-colors hover:text-tata-blue">EV Charging Stations</Link></li>
-                <li><Link href="/services#retrofit" className="transition-colors hover:text-tata-blue">Retrofitting & Repairs</Link></li>
-                <li><Link href="/services#automation" className="transition-colors hover:text-tata-blue">Automation</Link></li>
-                <li><Link href="/services#fire" className="transition-colors hover:text-tata-blue">Fire and Safety</Link></li>
+                <li><Link href="/services#civil" className="transition-colors hover:text-tata-blue">Civil Construction</Link></li>
+                <li><Link href="/services#interior" className="transition-colors hover:text-tata-blue">Residential Interiors</Link></li>
+                <li><Link href="/services#interior" className="transition-colors hover:text-tata-blue">Commercial Interiors</Link></li>
+                <li><Link href="/services#turnkey" className="transition-colors hover:text-tata-blue">Turnkey Execution</Link></li>
+                <li><Link href="/services#landsacpe" className="transition-colors hover:text-tata-blue">Landscaping Works</Link></li>
               </ul>
               <ul className="space-y-3">
-                <li><Link href="/services#landscaping" className="transition-colors hover:text-tata-blue">Landscaping</Link></li>
-                <li><Link href="/services#interiors" className="transition-colors hover:text-tata-blue">Interiors Designing</Link></li>
-                <li><Link href="/services#asset" className="transition-colors hover:text-tata-blue">Asset Management</Link></li>
+                <li><Link href="/services#planning" className="transition-colors hover:text-tata-blue">Architectural Planning</Link></li>
+                <li><Link href="/services#renovation" className="transition-colors hover:text-tata-blue">Renovation</Link></li>
+                <li><Link href="/services#retrofits" className="transition-colors hover:text-tata-blue">Retrofits</Link></li>
                 <li><Link href="/services#telecom" className="transition-colors hover:text-tata-blue">Telecom</Link></li>
               </ul>
             </div>
