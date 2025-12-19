@@ -74,7 +74,7 @@ export default function AboutPage() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.6, delay: 0.6 }}
               >
-                Over the years, we grew from a team of five professionals to a workforce of more than 200 skilled engineers, architects, designers, and construction experts. We continue to learn, adopt new technologies, and stay committed to excellence.
+                Over the years, we grew from a team of five professionals to a workforce of more than 200 skilled engineers, architects, designers and construction experts. We continue to learn, adopt new technologies and stay committed to excellence.
               </motion.p>
               <motion.p
                 className="mt-4 text-gray-600"
@@ -83,7 +83,7 @@ export default function AboutPage() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.6, delay: 0.8 }}
               >
-                Today, we are one of Bangalore’s leading construction and interior execution companies. Our portfolio includes residential, commercial, hospitality, and institutional projects.
+                Today, we are one of Bangalore’s leading construction and interior execution companies. Our portfolio includes residential, commercial, hospitality and institutional projects.
               </motion.p>
             </motion.div>
             <motion.div
@@ -138,12 +138,12 @@ export default function AboutPage() {
               {
                 title: "Integrity",
                 description:
-                  "We act with honesty, transparency, and strong ethics to build trust with our clients and partners.",
+                  "We act with honesty, transparency and strong ethics to build trust with our clients and partners.",
               },
               {
                 title: "Innovation",
                 description:
-                  "We adopt new technologies, materials, and methods to deliver solutions that exceed expectations.",
+                  "We adopt new technologies, materials and methods to deliver solutions that exceed expectations.",
               },
               {
                 title: "Sustainability",
@@ -191,7 +191,7 @@ export default function AboutPage() {
               {
                 name: "Eswar Anil Kumar",
                 position: "Founder",
-                bio: "Eswar Anil Kumar oversees all operations, ensuring projects are delivered on time, within budget, and to the highest standards.",
+                bio: "Eswar Anil Kumar oversees all operations, ensuring projects are delivered on time, within budget and to the highest standards.",
                 image: "/Suresh.JPG?height=400&width=400",
               },
               {
@@ -215,13 +215,13 @@ export default function AboutPage() {
             {
               name: "Sunil",
               position: "Senior Project Manager",
-              bio: "Sunil leads project execution with extensive experience in construction management, ensuring seamless coordination between teams, timely completion, and adherence to quality standards across all project phases.",
+              bio: "Sunil leads project execution with extensive experience in construction management, ensuring seamless coordination between teams, timely completion and adherence to quality standards across all project phases.",
               image: "/sunil.JPG?height=400&width=400",
             },
             {
               name: "Gopal V S",
               position: "Project Manager - Landscaping",
-              bio: "Gopal leads landscape project execution with specialized expertise in outdoor space transformation. He ensures seamless coordination between design and site teams, prioritizing environmental standards, timely completion, and superior aesthetic quality across all project phases.",
+              bio: "Gopal leads landscape project execution with specialized expertise in outdoor space transformation. He ensures seamless coordination between design and site teams, prioritizing environmental standards, timely completion and superior aesthetic quality across all project phases.",
               image: "/gopal.JPG?height=400&width=400",
             },
             {
@@ -310,7 +310,7 @@ export default function AboutPage() {
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        We identified the need for smarter infrastructure in 2020. We expanded into RFID and boom barrier–based smart parking systems, AV integration, and networking solutions for corporate and institutional clients. This phase marked our move from traditional infrastructure to technology-driven engineering, where we combined functionality with innovation.
+                        We identified the need for smarter infrastructure in 2020. We expanded into RFID and boom barrier–based smart parking systems, AV integration and networking solutions for corporate and institutional clients. This phase marked our move from traditional infrastructure to technology-driven engineering, where we combined functionality with innovation.
                       </p>
                     </div>
                   ),
@@ -321,7 +321,7 @@ export default function AboutPage() {
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        In 2022, Suyog Infra Solutions entered the EV charging infrastructure sector. We support India’s growing sustainable mobility ecosystem. We handle EV charger installation and commissioning. We work as a trusted partner for OEMs, facility managers, and developers. This milestone shows our commitment to green energy, clean transportation, and future-ready infrastructure.
+                        In 2022, Suyog Infra Solutions entered the EV charging infrastructure sector. We support India’s growing sustainable mobility ecosystem. We handle EV charger installation and commissioning. We work as a trusted partner for OEMs, facility managers and developers. This milestone shows our commitment to green energy, clean transportation and future-ready infrastructure.
                       </p>
                     </div>
                   ),
@@ -332,7 +332,7 @@ export default function AboutPage() {
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        By 2024, we expanded our services to include end-to-end interior design, landscaping, and outdoor infrastructure solutions. We delivered large-scale commercial, residential, and institutional projects. We combined design, engineering, and execution to ensure seamless results. Our work in landscaping automation, irrigation systems, and architectural interiors positioned us as a one-stop partner for integrated and sustainable environments.
+                        By 2024, we expanded our services to include end-to-end interior design, landscaping and outdoor infrastructure solutions. We delivered large-scale commercial, residential and institutional projects. We combined design, engineering and execution to ensure seamless results. Our work in landscaping automation, irrigation systems and architectural interiors positioned us as a one-stop partner for integrated and sustainable environments.
                       </p>
                     </div>
                   ),
@@ -343,7 +343,7 @@ export default function AboutPage() {
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        As we look ahead, Suyog Infra Solutions focuses on sustainability, smart construction, and eco-friendly design. We build energy-efficient and technology-driven spaces that support India’s green vision. With expertise in civil, electrical, landscaping, and automation, we aim to lead the next phase of sustainable infrastructure and intelligent buildings.
+                        As we look ahead, Suyog Infra Solutions focuses on sustainability, smart construction and eco-friendly design. We build energy-efficient and technology-driven spaces that support India’s green vision. With expertise in civil, electrical, landscaping and automation, we aim to lead the next phase of sustainable infrastructure and intelligent buildings.
                       </p>
                     </div>
                   ),
