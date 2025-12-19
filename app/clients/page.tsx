@@ -36,7 +36,7 @@ const testimonials = [
     position: "Designation - VP Sales Marketing and CRM.",
     image: "/pavan.png?height=200&width=200",
     content:
-      "We appreciate Suyog for the excellent landscape execution carried out at our IRA by the Banks – Sales Office. The work was executed with great attention to detail, quality materials, and a clear understanding of the design intent. The landscaping has significantly enhanced the overall aesthetics of the sales office, creating a welcoming and premium environment for our clients. Timelines were adhered to, coordination was smooth, and the site was well managed throughout the execution. Overall, a commendable job and a reliable partner for quality landscape works. Highly recommended",
+      "We appreciate Suyog for the excellent landscape execution carried out at our IRA by the Banks – Sales Office. The work was executed with great attention to detail, quality materials and a clear understanding of the design intent. The landscaping has significantly enhanced the overall aesthetics of the sales office, creating a welcoming and premium environment for our clients. Timelines were adhered to, coordination was smooth and the site was well managed throughout the execution. Overall, a commendable job and a reliable partner for quality landscape works. Highly recommended",
     rating: 5,
   },
   {
