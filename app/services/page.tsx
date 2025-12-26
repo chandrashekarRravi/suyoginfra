@@ -34,8 +34,7 @@ export default function ServicesPage() {
               animate={isPageLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Comprehensive construction and interior solutions tailored to your specific needs, delivered with
-              excellence and precision.
+              We deliver comprehensive construction and interior solutions tailored to your needs with excellence and precision
             </motion.p>
           </motion.div>
         </div>
@@ -75,9 +74,7 @@ export default function ServicesPage() {
                   viewport={{ once: false }}
                   transition={{ duration: 0.6, delay: 0.4 }}
                 >
-                  Our civil construction services encompass everything from foundation work to structural engineering,
-                  ensuring durability and compliance with all safety standards. We handle projects of all scales with
-                  the same level of dedication and expertise.
+                  We handle all aspects of civil construction, from foundation work to structural engineering. We ensure strong structures and follow all safety standards. We manage projects of all sizes with the same level of care and expertise.
                 </motion.p>
                 <motion.ul
                   className="mt-6 space-y-3"
@@ -190,9 +187,7 @@ export default function ServicesPage() {
                   viewport={{ once: false }}
                   transition={{ duration: 0.6, delay: 0.6 }}
                 >
-                  We create living and working environments that perfectly balance aesthetics and functionality. Our
-                  interior solutions include space planning, material selection, custom furniture, lighting design, and
-                  final styling.
+                  We design and build living and working spaces that balance style and function. We offer space planning, material selection, custom furniture, lighting design and final styling.
                 </motion.p>
                 <motion.ul
                   className="mt-6 space-y-3"
@@ -262,8 +257,7 @@ export default function ServicesPage() {
                   viewport={{ once: false }}
                   transition={{ duration: 0.6, delay: 0.4 }}
                 >
-                  Our turnkey solutions provide end-to-end project execution with a single point of contact, eliminating
-                  coordination hassles. We handle everything from design and procurement to construction and handover.
+                  We offer end-to-end project execution with a single point of contact. This approach removes coordination challenges. We manage the entire process from design and procurement to construction and final handover.
                 </motion.p>
                 <motion.ul
                   className="mt-6 space-y-3"
@@ -277,7 +271,7 @@ export default function ServicesPage() {
                     "Design and engineering services",
                     "Material procurement and quality control",
                     "Construction and interior execution",
-                    "Testing, commissioning, and handover",
+                    "Testing, commissioning and handover",
                   ].map((item, index) => (
                     <motion.li
                       key={index}
@@ -315,7 +309,7 @@ export default function ServicesPage() {
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
                 <img
-                  src="/placeholder.svg?height=600&width=800"
+                  src="/turnkey.png?height=600&width=800"
                   alt="Turnkey Execution"
                   className="h-full w-full rounded-lg object-cover shadow-lg"
                 />
@@ -331,6 +325,7 @@ export default function ServicesPage() {
 
             {/* Landscaping Works */}
             <motion.div
+              id="landscape"
               className="scroll-mt-24 grid gap-12 md:grid-cols-2"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -373,9 +368,7 @@ export default function ServicesPage() {
                   viewport={{ once: false }}
                   transition={{ duration: 0.6, delay: 0.6 }}
                 >
-                  Our landscaping services transform outdoor spaces into beautiful, functional environments that enhance 
-                  property value while providing environmental benefits and aesthetic appeal. We create sustainable 
-                  landscapes that thrive in harmony with their surroundings.
+                  We design and build outdoor spaces that are both functional and visually appealing. Our work enhances property value and supports the environment. We create sustainable landscapes that blend with their surroundings.
                 </motion.p>
                 <motion.ul
                   className="mt-6 space-y-3"
@@ -445,8 +438,7 @@ export default function ServicesPage() {
                   viewport={{ once: false }}
                   transition={{ duration: 0.6, delay: 0.4 }}
                 >
-                  Our architectural planning services include conceptual design, space planning, 3D visualization,
-                  regulatory compliance, and detailed construction documentation to bring your vision to life.
+                  We provide architectural planning services that turn your ideas into clear designs. We handle conceptual design, space planning, 3D visualization, regulatory approvals and detailed construction documents.
                 </motion.p>
                 <motion.ul
                   className="mt-6 space-y-3"
@@ -514,6 +506,7 @@ export default function ServicesPage() {
 
             {/* Renovation & Retrofits */}
             <motion.div
+              id="renovetion retrofits"
               className="scroll-mt-24 grid gap-12 md:grid-cols-2"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -556,9 +549,7 @@ export default function ServicesPage() {
                   viewport={{ once: false }}
                   transition={{ duration: 0.6, delay: 0.6 }}
                 >
-                  We specialize in transforming outdated spaces into modern, functional environments. Our renovation
-                  services include structural repairs, space reconfiguration, systems upgrades, and aesthetic
-                  enhancements.
+                  We transform outdated spaces into modern and functional environments. We handle structural repairs, space changes, system upgrades and visual improvements.
                 </motion.p>
                 <motion.ul
                   className="mt-6 space-y-3"
@@ -631,7 +622,7 @@ export default function ServicesPage() {
               viewport={{ once: false }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              We follow a structured approach to ensure every project is delivered with precision and excellence.
+              We follow a clear and structured process to deliver every project with precision and excellence.
             </motion.p>
           </motion.div>
 
@@ -641,25 +632,25 @@ export default function ServicesPage() {
                 step: "01",
                 title: "Consultation",
                 description:
-                  "We begin with a detailed consultation to understand your requirements, vision, and budget constraints.",
+                  "We start with a detailed discussion to understand your needs, vision and budget.",
               },
               {
                 step: "02",
                 title: "Planning & Design",
                 description:
-                  "Our team develops comprehensive plans and designs tailored to your specific needs and preferences.",
+                  "Our team creates clear plans and designs that match your requirements and preferences.",
               },
               {
                 step: "03",
                 title: "Execution",
                 description:
-                  "We implement the plans with precision, adhering to the highest quality standards and safety protocols.",
+                  "We execute the plans with precision and follow strict quality and safety standards.",
               },
               {
                 step: "04",
                 title: "Handover",
                 description:
-                  "The completed project is delivered with thorough documentation and a comprehensive walkthrough.",
+                  "We deliver the completed project with full documentation and a detailed walkthrough.",
               },
             ].map((process, index) => (
               <motion.div
@@ -713,7 +704,7 @@ export default function ServicesPage() {
             viewport={{ once: false }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Contact us today to discuss your project requirements and how we can help bring your vision to life.
+            Contact us today to discuss your project and see how we can bring your vision to life.
           </motion.p>
           <motion.div
             className="mt-8"

@@ -23,10 +23,10 @@ export default function Hero() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <h1 className="font-montserrat text-4xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
               Crafting the Future <br />
-              of Spaces.
+              Spaces
             </h1>
             <p className="mt-6 max-w-xl text-lg text-gray-200">
-              Complete Construction & Interior Solutions Backed by Decades of Proven Excellence in Bangalore and beyond.
+              We provide complete construction and interior solutions, backed by decades of proven excellence in Bangalore and beyond.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link href="/projects">

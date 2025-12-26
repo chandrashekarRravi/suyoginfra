@@ -35,8 +35,7 @@ export default function AboutPage() {
               animate={isPageLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              With over two decades of excellence in the construction industry, we've built a reputation for quality,
-              reliability, and innovation in every project we undertake.
+              With over two decades of experience in the construction industry, we deliver quality, reliability and innovation in every project.
             </motion.p>
           </motion.div>
         </div>
@@ -66,7 +65,7 @@ export default function AboutPage() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
-                Suyog Infra Solutions began as a small construction firm with a big vision - to transform the urban landscape of Bangalore with quality construction and innovative design.
+                Suyog Infra Solutions started as a small construction firm with a big vision to transform Bangalore’s urban landscape through quality construction and innovative design.
               </motion.p>
               <motion.p
                 className="mt-4 text-gray-600"
@@ -75,7 +74,7 @@ export default function AboutPage() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.6, delay: 0.6 }}
               >
-                Over the years, we've grown from a team of 5 dedicated professionals to a workforce of over 200 skilled engineers, architects, designers, and construction experts. Our journey has been marked by continuous learning, adaptation to new technologies, and an unwavering commitment to excellence.
+                Over the years, we grew from a team of five professionals to a workforce of more than 200 skilled engineers, architects, designers and construction experts. We continue to learn, adopt new technologies and stay committed to excellence.
               </motion.p>
               <motion.p
                 className="mt-4 text-gray-600"
@@ -84,7 +83,7 @@ export default function AboutPage() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.6, delay: 0.8 }}
               >
-                Today, we stand as one of Bangalore's premier construction and interior execution companies, with a portfolio spanning residential complexes, commercial spaces, hospitality projects, and institutional buildings.
+                Today, we are one of Bangalore’s leading construction and interior execution companies. Our portfolio includes residential, commercial, hospitality and institutional projects.
               </motion.p>
             </motion.div>
             <motion.div
@@ -134,22 +133,22 @@ export default function AboutPage() {
               {
                 title: "Excellence",
                 description:
-                  "We strive for excellence in every aspect of our work, from planning and design to execution and delivery.",
+                  "We aim for excellence in every stage of our work, from planning and design to execution and delivery.",
               },
               {
                 title: "Integrity",
                 description:
-                  "We conduct our business with honesty, transparency, and ethical practices, building trust with our clients and partners.",
+                  "We act with honesty, transparency and strong ethics to build trust with our clients and partners.",
               },
               {
                 title: "Innovation",
                 description:
-                  "We embrace new technologies, materials, and methods to deliver innovative solutions that exceed expectations.",
+                  "We adopt new technologies, materials and methods to deliver solutions that exceed expectations.",
               },
               {
                 title: "Sustainability",
                 description:
-                  "We are committed to environmentally responsible construction practices and sustainable design principles.",
+                  "We follow environmentally responsible construction practices and sustainable design principles.",
               },
             ].map((value, index) => (
               <motion.div
@@ -192,7 +191,7 @@ export default function AboutPage() {
               {
                 name: "Eswar Anil Kumar",
                 position: "Founder",
-                bio: "Eswar Anil Kumar oversees all operations, ensuring projects are delivered on time, within budget, and to the highest standards.",
+                bio: "Eswar Anil Kumar oversees all operations, ensuring projects are delivered on time, within budget and to the highest standards.",
                 image: "/Suresh.JPG?height=400&width=400",
               },
               {
@@ -214,11 +213,23 @@ export default function AboutPage() {
               image: "/shalini.JPG?height=400&width=400",
             },
             {
-              name: "Hareesha M",
+              name: "Sunil",
               position: "Senior Project Manager",
-              bio: "Sunil B M leads project execution with extensive experience in construction management, ensuring seamless coordination between teams, timely completion, and adherence to quality standards across all project phases.",
+              bio: "Sunil leads project execution with extensive experience in construction management, ensuring seamless coordination between teams, timely completion and adherence to quality standards across all project phases.",
               image: "/sunil.JPG?height=400&width=400",
             },
+            {
+              name: "Gopal V S",
+              position: "Project Manager - Landscaping",
+              bio: "Gopal leads landscape project execution with specialized expertise in outdoor space transformation. He ensures seamless coordination between design and site teams, prioritizing environmental standards, timely completion and superior aesthetic quality across all project phases.",
+              image: "/gopal.JPG?height=400&width=400",
+            },
+            {
+              name: "Hareesha M",
+              position: "Project Manager - EV & Automation",
+              bio: "Hareesha M provides strategic oversight in the EV and automation segment, leveraging deep technical expertise to drive the integration of advanced automation systems. He excels in managing complex project lifecycles, ensuring cross-functional team alignment and the delivery of innovative, high-performance solutions in sustainable mobility.",
+              image: "/hareesha.JPG?height=400&width=400",
+            }
             ].map((member, index) => (
               <motion.div
                 key={index}
@@ -288,7 +299,7 @@ export default function AboutPage() {
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        Suyog Infra Solutions began its journey in 2019 with a vision to redefine reliability and quality in infrastructure. We started with telecom and fiber optic network projects, providing turnkey execution and technical excellence. These early successes established our credibility and built a strong foundation for our multi-domain growth.
+                        Suyog Infra Solutions started its journey in 2019 with a vision to deliver reliable, high-quality infrastructure. We began with telecom and fiber optic network projects and provided turnkey execution with strong technical expertise. These early projects built our credibility and laid a strong foundation for growth across multiple domains.
                       </p>
                     </div>
                   ),
@@ -299,7 +310,7 @@ export default function AboutPage() {
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        Recognizing the need for smarter infrastructure, we diversified into RFID and boom barrier–based smart parking systems, AV integration, and networking solutions for corporate and institutional clients. This phase marked our shift from traditional infrastructure to tech-enabled engineering, blending functionality with innovation.
+                        We identified the need for smarter infrastructure in 2020. We expanded into RFID and boom barrier–based smart parking systems, AV integration and networking solutions for corporate and institutional clients. This phase marked our move from traditional infrastructure to technology-driven engineering, where we combined functionality with innovation.
                       </p>
                     </div>
                   ),
@@ -310,7 +321,7 @@ export default function AboutPage() {
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        In 2022, Suyog Infra Solutions expanded into the EV charging infrastructure segment, supporting India’s evolving sustainable mobility ecosystem. From installation to commissioning of EV chargers, we became a trusted partner for OEMs, facility managers, and developers. This milestone reflected our commitment to green energy, cleaner transportation, and future-ready infrastructure.
+                        In 2022, Suyog Infra Solutions entered the EV charging infrastructure sector. We support India’s growing sustainable mobility ecosystem. We handle EV charger installation and commissioning. We work as a trusted partner for OEMs, facility managers and developers. This milestone shows our commitment to green energy, clean transportation and future-ready infrastructure.
                       </p>
                     </div>
                   ),
@@ -321,7 +332,7 @@ export default function AboutPage() {
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        By 2024, our services had grown to include end-to-end interior design, landscaping, and outdoor infrastructure solutions. We delivered large-scale commercial, residential, and institutional projects, offering a seamless blend of design, engineering, and execution. Our work in landscaping automation, irrigation systems, and architectural interiors positioned us as a one-stop partner for integrated, sustainable environments.
+                        By 2024, we expanded our services to include end-to-end interior design, landscaping and outdoor infrastructure solutions. We delivered large-scale commercial, residential and institutional projects. We combined design, engineering and execution to ensure seamless results. Our work in landscaping automation, irrigation systems and architectural interiors positioned us as a one-stop partner for integrated and sustainable environments.
                       </p>
                     </div>
                   ),
@@ -332,7 +343,7 @@ export default function AboutPage() {
                   content: (
                     <div>
                       <p className="mb-4 text-sm text-gray-600">
-                        As we look toward the future, Suyog Infra Solutions continues to focus on sustainability, smart construction, and eco-friendly design practices. Our commitment is to build energy-efficient, technology-driven spaces that align with India’s green vision. With expertise across civil, electrical, landscape, and automation domains, we aim to lead the next era of sustainable infrastructure and intelligent buildings.
+                        As we look ahead, Suyog Infra Solutions focuses on sustainability, smart construction and eco-friendly design. We build energy-efficient and technology-driven spaces that support India’s green vision. With expertise in civil, electrical, landscaping and automation, we aim to lead the next phase of sustainable infrastructure and intelligent buildings.
                       </p>
                     </div>
                   ),
@@ -368,7 +379,7 @@ export default function AboutPage() {
             viewport={{ once: false }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Contact us today to discuss how we can bring your vision to life with our expertise and dedication.
+            Contact us today to bring your vision to life with our expertise and dedication.
           </motion.p>
           <motion.div
             className="mt-8"

@@ -27,7 +27,7 @@ export default function Home() {
               Our Comprehensive Services
             </h2>
             <p className="mt-4 max-w-2xl text-gray-600">
-              From concept to completion, we deliver excellence at every stage of your construction and interior needs.
+              We handle every stage of your construction and interior needs, from concept to completion.
             </p>
           </div>
           <ServiceGrid />
