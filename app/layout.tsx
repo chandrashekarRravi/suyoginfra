@@ -21,8 +21,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Suyog Infra Solutions | Premier Civil Construction & Interior Execution",
   description:
-    "Bangalore's leading construction company with 20+ years of excellence in residential, commercial, and turnkey infrastructure projects.",
-    generator: 'v0.dev'
+    "Bangalore's leading construction company with 20+ years of excellence in residential, commercial, and turnkey infrastructure projects.",   
 }
 
 export default function RootLayout({
