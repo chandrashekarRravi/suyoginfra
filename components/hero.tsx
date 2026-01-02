@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Calendar } from "lucide-react"
 import { motion } from "framer-motion"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Hero() {
   return (
@@ -10,10 +11,13 @@ export default function Hero() {
       {/* Image background with overlay */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40 z-10"></div>
-        <img
-          src="/home page.jpg?height=1080&width=1920"
-          alt="Construction site"
-          className="h-full w-full object-cover"
+        <Image
+          src="/home page.jpg"
+          alt="Construction site with modern infrastructure"
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
         />
       </div>
 

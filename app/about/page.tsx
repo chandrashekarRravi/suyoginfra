@@ -3,28 +3,22 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 import { Timeline } from "@/components/ui/timeline"
 import { motion } from "framer-motion"
-import { usePageNavigation } from "@/hooks/use-page-navigation"
 
 export default function AboutPage() {
-  const { isPageLoaded, animationKey } = usePageNavigation()
-
   return (
-    <div className="pt-24" key={animationKey}>
+    <div className="pt-24">
       {/* Hero Section */}
-      <motion.section
-        className="relative bg-gray-50 py-24"
-        initial={{ opacity: 0, y: 50 }}
-        animate={isPageLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-        transition={{ duration: 0.8 }}
-      >
+      <section className="relative bg-gray-50 py-24">
         <div className="container mx-auto px-4">
           <motion.div
             className="mx-auto max-w-3xl text-center"
             initial={{ opacity: 0, y: 30 }}
-            animate={isPageLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.6 }}
           >
             <h1 className="font-montserrat text-4xl font-semibold tracking-tight sm:text-5xl md:text-6xl">
               About <span className="text-tata-blue">Suyog Infra</span>
@@ -32,14 +26,15 @@ export default function AboutPage() {
             <motion.p
               className="mt-6 text-lg text-gray-600"
               initial={{ opacity: 0, y: 20 }}
-              animate={isPageLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.6, delay: 0.2 }}
             >
               With over two decades of experience in the construction industry, we deliver quality, reliability and innovation in every project.
             </motion.p>
           </motion.div>
         </div>
-      </motion.section>
+      </section>
 
       {/* Our Story */}
       <motion.section
@@ -87,16 +82,18 @@ export default function AboutPage() {
               </motion.p>
             </motion.div>
             <motion.div
-              className="relative"
+              className="relative h-[400px] w-full"
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: false }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              <img
-                src="/suyogG.jpg?height=600&width=1000"
+              <Image
+                src="/suyogG.jpg"
                 alt="Suyog Infra office building"
-                className="h-full w-full rounded-lg object-cover shadow-lg"
+                fill
+                className="rounded-lg object-cover shadow-lg"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
               <motion.div
                 className="absolute -bottom-4 -right-4 h-24 w-24 rounded-full border-2 border-tata-blue/20"
@@ -240,15 +237,21 @@ export default function AboutPage() {
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 whileHover={{ scale: 1.02 }}
               >
-                <motion.img
-                  src={member.image || "/placeholder.svg"}
-                  alt={member.name}
-                  className="h-80 w-full object-contain object-top"
+                <motion.div
+                  className="relative h-80 w-full"
                   initial={{ scale: 1.1 }}
                   whileInView={{ scale: 1 }}
                   viewport={{ once: false }}
                   transition={{ duration: 0.8, delay: index * 0.2 + 0.2 }}
-                />
+                >
+                  <Image
+                    src={member.image?.replace("?height=400&width=400", "") || "/placeholder.svg"}
+                    alt={`${member.name}, ${member.position}`}
+                    fill
+                    className="object-contain object-top"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                </motion.div>
                 <motion.div
                   className="p-6"
                   initial={{ opacity: 0, y: 20 }}

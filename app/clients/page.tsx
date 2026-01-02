@@ -4,6 +4,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Star, Quote } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { cn } from "@/lib/utils"
 // Import logos directly from the app/clients folder
@@ -383,11 +384,12 @@ export default function ClientsPage() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 whileHover={{ scale: 1.1, y: -5 }}
               >
-                <img
+                <Image
                   src={typeof client.image === 'string' ? client.image : client.image.src}
-                  alt={client.description}
+                  alt={`${client.description} - Client logo`}
+                  width={128}
+                  height={64}
                   className={`${client.className} transition-all duration-300 hover:opacity-80`}
-                  loading="lazy"
                 />
               </motion.div>
             ))}

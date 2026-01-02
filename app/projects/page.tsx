@@ -4,6 +4,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, ArrowLeft, ArrowUpRight } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
 import { usePageNavigation } from "@/hooks/use-page-navigation"
@@ -635,11 +636,13 @@ export default function ProjectsPage() {
 
                   return (
                     <div>
-                      <div className="mb-6 h-80 overflow-hidden rounded-lg">
-                        <img
-                          src={project.image || "/placeholder.svg"}
-                          alt={project.title}
-                          className="h-full w-full object-cover"
+                      <div className="relative mb-6 h-80 overflow-hidden rounded-lg">
+                        <Image
+                          src={project.image?.replace("?height=600&width=800", "") || "/placeholder.svg"}
+                          alt={`${project.title} - ${project.category} project in ${project.location}`}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, 50vw"
                         />
                       </div>
 

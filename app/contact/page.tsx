@@ -10,6 +10,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Send, Phone, Mail, MapPin, Check, ChevronDown, ChevronUp } from "lucide-react"
 import { useSearchParams } from "next/navigation"
 import { usePageNavigation } from "@/hooks/use-page-navigation"
+import { faqPageSchema } from "./page-schema"
 
 export default function ContactPage() {
   const [formState, setFormState] = useState({
@@ -62,8 +63,13 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="pt-24" key={animationKey}>
-      {/* Hero Section */}
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPageSchema) }}
+      />
+      <div className="pt-24" key={animationKey}>
+        {/* Hero Section */}
       <section className="relative bg-gray-50 py-24">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-3xl text-center">
@@ -341,5 +347,6 @@ export default function ContactPage() {
         </div>
       </section>
     </div>
+    </>
   )
 }

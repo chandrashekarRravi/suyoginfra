@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
@@ -125,10 +126,12 @@ export default function ProjectShowcase() {
             onClick={() => setSelectedProject(selectedProject === project.id ? null : project.id)}
           >
             <div className="relative h-64 overflow-hidden">
-              <img
-                src={project.image || "/placeholder.svg"}
-                alt={project.title}
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              <Image
+                src={project.image?.replace("?height=600&width=800", "") || "/placeholder.svg"}
+                alt={`${project.title} - ${project.category} project`}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
               <div className="absolute bottom-0 left-0 w-full p-4 text-white opacity-0 transition-all duration-300 group-hover:opacity-100">

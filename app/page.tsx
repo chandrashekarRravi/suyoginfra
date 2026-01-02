@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
 import Hero from "@/components/hero"
 import ServiceGrid from "@/components/service-grid"
@@ -8,10 +9,53 @@ import ContactCTA from "@/components/contact-cta"
 import ClientLogos from "@/components/client-logos"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
+import { generateBreadcrumbSchema } from "./breadcrumb-schema"
+
+export const metadata: Metadata = {
+  title: "Home",
+  description:
+    "Suyog Infra Solutions provides comprehensive construction and interior solutions in Bangalore. Explore our services, projects, and expertise in civil construction, interior execution, and turnkey infrastructure.",
+  alternates: {
+    canonical: "/",
+  },
+}
 
 export default function Home() {
+  const breadcrumbSchema = generateBreadcrumbSchema("", "Home")
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Suyog Infra Solutions - Premier Construction Company in Bengaluru",
+    description:
+      "Suyog Infra Solutions provides comprehensive construction and interior solutions in Bengaluru and Rajajinagar. Explore our services, projects, and expertise in civil construction, interior execution, and turnkey infrastructure.",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com",
+    inLanguage: "en-IN",
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Suyog Infra Solutions",
+      url: process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com",
+    },
+    about: {
+      "@type": "LocalBusiness",
+      name: "Suyog Infra Solutions",
+    },
+    mainEntity: {
+      "@type": "LocalBusiness",
+      name: "Suyog Infra Solutions",
+    },
+  }
+
   return (
-    <div className="relative overflow-hidden">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
+      <div className="relative overflow-hidden">
       {/* Background grid pattern */}
       <div className="absolute inset-0 z-0 opacity-5">
         <div className="grid-background h-full w-full" />
@@ -85,5 +129,6 @@ export default function Home() {
         <ContactCTA />
       </div>
     </div>
+    </>
   )
 }

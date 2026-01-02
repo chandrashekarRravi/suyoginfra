@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef, useState } from "react"
 import { motion, useInView } from "framer-motion"
+import Image from "next/image"
 import { cn } from "@/lib/utils"
 
 interface TimelineItem {
@@ -118,13 +119,14 @@ function TimelineItemComponent({ item, index, isInView }: TimelineItemComponentP
                             initial={{ opacity: 0, scale: 0.9 }}
                             animate={itemInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
                             transition={{ duration: 0.6, delay: index * 0.2 + 0.4 }}
-                            className="mt-4"
+                            className="relative mt-4 h-32 w-full md:h-40"
                         >
-                            <img
+                            <Image
                                 src={item.image}
                                 alt={item.title}
-                                className="h-32 w-full rounded-lg object-cover shadow-md md:h-40"
-                                loading="lazy"
+                                fill
+                                className="rounded-lg object-cover shadow-md"
+                                sizes="(max-width: 768px) 100vw, 50vw"
                             />
                         </motion.div>
                     )}

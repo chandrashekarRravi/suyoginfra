@@ -3,27 +3,27 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Check } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 import { motion } from "framer-motion"
-import { usePageNavigation } from "@/hooks/use-page-navigation"
+import { servicesPageSchema } from "./page-schema"
 
 export default function ServicesPage() {
-  const { isPageLoaded, animationKey } = usePageNavigation()
-
   return (
-    <div className="pt-24" key={animationKey}>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesPageSchema) }}
+      />
+      <div className="pt-24">
       {/* Hero Section */}
-      <motion.section
-        className="relative bg-gray-50 py-24"
-        initial={{ opacity: 0, y: 50 }}
-        animate={isPageLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-        transition={{ duration: 0.8 }}
-        >
+      <section className="relative bg-gray-50 py-24">
         <div className="container mx-auto px-4">
           <motion.div
             className="mx-auto max-w-3xl text-center"
             initial={{ opacity: 0, y: 30 }}
-            animate={isPageLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.6 }}
           >
             <h1 className="font-montserrat text-4xl font-semibold tracking-tight sm:text-5xl md:text-6xl">
               Our <span className="text-tata-blue">Services</span>
@@ -31,14 +31,15 @@ export default function ServicesPage() {
             <motion.p
               className="mt-6 text-lg text-gray-600"
               initial={{ opacity: 0, y: 20 }}
-              animate={isPageLoaded ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.6, delay: 0.2 }}
             >
               We deliver comprehensive construction and interior solutions tailored to your needs with excellence and precision
             </motion.p>
           </motion.div>
         </div>
-      </motion.section>
+      </section>
 
       {/* Services Overview */}
       <motion.section
@@ -119,16 +120,18 @@ export default function ServicesPage() {
                 </motion.div>
               </motion.div>
               <motion.div
-                className="relative"
+                className="relative h-[400px] w-full"
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                <img
-                  src="/civil.png?height=400&width=800"
-                  alt="Civil Construction"
-                  className="h-full w-full rounded-lg object-cover shadow-lg"
+                <Image
+                  src="/civil.png"
+                  alt="Civil construction project showcasing infrastructure development"
+                  fill
+                  className="rounded-lg object-cover shadow-lg"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <motion.div
                   className="absolute -bottom-4 -left-4 h-24 w-24 rounded-full border-2 border-tata-blue/20"
@@ -150,16 +153,18 @@ export default function ServicesPage() {
               transition={{ duration: 0.8 }}
             >
               <motion.div
-                className="order-2 md:order-1 relative"
+                className="order-2 md:order-1 relative h-[400px] w-full"
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                <img
-                  src="/comertial.png?height=600&width=800"
-                  alt="Interior Execution"
-                  className="h-full w-full rounded-lg object-cover shadow-lg"
+                <Image
+                  src="/comertial.png"
+                  alt="Residential and commercial interior design execution"
+                  fill
+                  className="rounded-lg object-cover shadow-lg"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <motion.div
                   className="absolute -top-4 -right-4 h-24 w-24 rounded-full border-2 border-tata-blue/20"
@@ -302,16 +307,18 @@ export default function ServicesPage() {
                 </motion.div>
               </motion.div>
               <motion.div
-                className="relative"
+                className="relative h-[400px] w-full"
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                <img
-                  src="/turnkey.png?height=600&width=800"
-                  alt="Turnkey Execution"
-                  className="h-full w-full rounded-lg object-cover shadow-lg"
+                <Image
+                  src="/turnkey.png"
+                  alt="Turnkey project execution from design to completion"
+                  fill
+                  className="rounded-lg object-cover shadow-lg"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <motion.div
                   className="absolute -bottom-4 -left-4 h-24 w-24 rounded-full border-2 border-tata-blue/20"
@@ -333,16 +340,18 @@ export default function ServicesPage() {
               transition={{ duration: 0.8 }}
             >
               <motion.div
-                className="order-2 md:order-1 relative"
+                className="order-2 md:order-1 relative h-[400px] w-full"
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                <img
-                  src="/landscap.png?height=600&width=800"
-                  alt="Landscaping Works"
-                  className="h-full w-full rounded-lg object-cover shadow-lg"
+                <Image
+                  src="/landscap.png"
+                  alt="Landscaping and outdoor space design works"
+                  fill
+                  className="rounded-lg object-cover shadow-lg"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <motion.div
                   className="absolute -top-4 -right-4 h-24 w-24 rounded-full border-2 border-tata-blue/20"
@@ -483,16 +492,18 @@ export default function ServicesPage() {
                 </motion.div>
               </motion.div>
               <motion.div
-                className="relative"
+                className="relative h-[400px] w-full"
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                <img
-                  src="/architecture.jpg?height=600&width=800"
-                  alt="Architectural Planning"
-                  className="h-full w-full rounded-lg object-cover shadow-lg"
+                <Image
+                  src="/architecture.jpg"
+                  alt="Architectural planning and design services"
+                  fill
+                  className="rounded-lg object-cover shadow-lg"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <motion.div
                   className="absolute -bottom-4 -left-4 h-24 w-24 rounded-full border-2 border-tata-blue/20"
@@ -514,16 +525,18 @@ export default function ServicesPage() {
               transition={{ duration: 0.8 }}
             >
               <motion.div
-                className="order-2 md:order-1 relative"
+                className="order-2 md:order-1 relative h-[400px] w-full"
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                <img
-                  src="/Renovation & Retrofits.png?height=600&width=800"
-                  alt="Renovation & Retrofits"
-                  className="h-full w-full rounded-lg object-cover shadow-lg"
+                <Image
+                  src="/Renovation & Retrofits.png"
+                  alt="Renovation and retrofitting services for existing structures"
+                  fill
+                  className="rounded-lg object-cover shadow-lg"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <motion.div
                   className="absolute -top-4 -right-4 h-24 w-24 rounded-full border-2 border-tata-blue/20"
@@ -726,5 +739,6 @@ export default function ServicesPage() {
         </div>
       </motion.section>
     </div>
+    </>
   )
 }
