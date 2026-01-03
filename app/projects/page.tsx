@@ -641,6 +641,8 @@ export default function ProjectsPage() {
                           src={project.image?.replace("?height=600&width=800", "") || "/placeholder.svg"}
                           alt={`${project.title} - ${project.category} project in ${project.location}`}
                           fill
+                          loading="lazy"
+                          quality={85}
                           className="object-cover"
                           sizes="(max-width: 768px) 100vw, 50vw"
                         />

@@ -389,6 +389,8 @@ export default function ClientsPage() {
                   alt={`${client.description} - Client logo`}
                   width={128}
                   height={64}
+                  loading="lazy"
+                  quality={75}
                   className={`${client.className} transition-all duration-300 hover:opacity-80`}
                 />
               </motion.div>

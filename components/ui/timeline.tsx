@@ -125,6 +125,8 @@ function TimelineItemComponent({ item, index, isInView }: TimelineItemComponentP
                                 src={item.image}
                                 alt={item.title}
                                 fill
+                                loading="lazy"
+                                quality={80}
                                 className="rounded-lg object-cover shadow-md"
                                 sizes="(max-width: 768px) 100vw, 50vw"
                             />

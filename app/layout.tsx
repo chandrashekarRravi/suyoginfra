@@ -44,6 +44,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 5,
+  },
+  other: {
+    "mobile-web-app-capable": "yes",
+  },
   openGraph: {
     type: "website",
     locale: "en_IN",
@@ -265,6 +273,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Resource hints for performance */}
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* Structured data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}

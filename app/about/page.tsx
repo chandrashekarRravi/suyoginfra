@@ -92,6 +92,8 @@ export default function AboutPage() {
                 src="/suyogG.jpg"
                 alt="Suyog Infra office building"
                 fill
+                loading="lazy"
+                quality={85}
                 className="rounded-lg object-cover shadow-lg"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
@@ -248,6 +250,8 @@ export default function AboutPage() {
                     src={member.image?.replace("?height=400&width=400", "") || "/placeholder.svg"}
                     alt={`${member.name}, ${member.position}`}
                     fill
+                    loading="lazy"
+                    quality={80}
                     className="object-contain object-top"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />

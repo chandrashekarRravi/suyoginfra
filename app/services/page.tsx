@@ -130,6 +130,8 @@ export default function ServicesPage() {
                   src="/civil.png"
                   alt="Civil construction project showcasing infrastructure development"
                   fill
+                  loading="lazy"
+                  quality={85}
                   className="rounded-lg object-cover shadow-lg"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -163,6 +165,8 @@ export default function ServicesPage() {
                   src="/comertial.png"
                   alt="Residential and commercial interior design execution"
                   fill
+                  loading="lazy"
+                  quality={85}
                   className="rounded-lg object-cover shadow-lg"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -317,6 +321,8 @@ export default function ServicesPage() {
                   src="/turnkey.png"
                   alt="Turnkey project execution from design to completion"
                   fill
+                  loading="lazy"
+                  quality={85}
                   className="rounded-lg object-cover shadow-lg"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -350,6 +356,8 @@ export default function ServicesPage() {
                   src="/landscap.png"
                   alt="Landscaping and outdoor space design works"
                   fill
+                  loading="lazy"
+                  quality={85}
                   className="rounded-lg object-cover shadow-lg"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -502,6 +510,8 @@ export default function ServicesPage() {
                   src="/architecture.jpg"
                   alt="Architectural planning and design services"
                   fill
+                  loading="lazy"
+                  quality={85}
                   className="rounded-lg object-cover shadow-lg"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -535,6 +545,8 @@ export default function ServicesPage() {
                   src="/Renovation & Retrofits.png"
                   alt="Renovation and retrofitting services for existing structures"
                   fill
+                  loading="lazy"
+                  quality={85}
                   className="rounded-lg object-cover shadow-lg"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />

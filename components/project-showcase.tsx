@@ -130,6 +130,8 @@ export default function ProjectShowcase() {
                 src={project.image?.replace("?height=600&width=800", "") || "/placeholder.svg"}
                 alt={`${project.title} - ${project.category} project`}
                 fill
+                loading="lazy"
+                quality={80}
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
