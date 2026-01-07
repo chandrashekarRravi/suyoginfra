@@ -130,11 +130,81 @@ const localBusinessSchema = {
       addressCountry: "IN",
     },
     {
+      "@type": "Place",
+      name: "Whitefield",
+      addressLocality: "Whitefield",
+      addressRegion: "Karnataka",
+      addressCountry: "IN",
+    },
+    {
+      "@type": "Place",
+      name: "Electronic City",
+      addressLocality: "Electronic City",
+      addressRegion: "Karnataka",
+      addressCountry: "IN",
+    },
+    {
+      "@type": "Place",
+      name: "MG Road",
+      addressLocality: "MG Road",
+      addressRegion: "Karnataka",
+      addressCountry: "IN",
+    },
+    {
+      "@type": "Place",
+      name: "Indiranagar",
+      addressLocality: "Indiranagar",
+      addressRegion: "Karnataka",
+      addressCountry: "IN",
+    },
+    {
+      "@type": "Place",
+      name: "Koramangala",
+      addressLocality: "Koramangala",
+      addressRegion: "Karnataka",
+      addressCountry: "IN",
+    },
+    {
+      "@type": "Place",
+      name: "HSR Layout",
+      addressLocality: "HSR Layout",
+      addressRegion: "Karnataka",
+      addressCountry: "IN",
+    },
+    {
       "@type": "State",
       name: "Karnataka",
       addressCountry: "IN",
     },
   ],
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+      ],
+      opens: "09:00",
+      closes: "18:00",
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: "Saturday",
+      opens: "10:00",
+      closes: "16:00",
+    },
+  ],
+  paymentAccepted: "Cash, Credit Card, Debit Card, UPI, Bank Transfer",
+  currenciesAccepted: "INR",
+  priceRange: "$$",
+  servesCuisine: null,
+  menu: null,
+  acceptsReservations: null,
+  hasMap: `${process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com"}/contact`,
+  map: `${process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com"}/contact`,
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Construction and Interior Services",
@@ -257,11 +327,35 @@ const localBusinessSchema = {
     "https://www.linkedin.com/company/suyog-infra-solutions",
   ],
   foundingDate: "2000",
-  priceRange: "$$",
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.8",
     reviewCount: "50",
+    bestRating: "5",
+    worstRating: "1",
+  },
+  // Additional local SEO signals for "near me" searches
+  knowsAbout: [
+    "Civil Construction",
+    "Interior Design",
+    "Turnkey Projects",
+    "Landscaping",
+    "Architectural Planning",
+    "Renovation Services",
+  ],
+  // Service area radius (in kilometers from Peenya)
+  serviceArea: {
+    "@type": "GeoCircle",
+    geoMidpoint: {
+      "@type": "GeoCoordinates",
+      latitude: "13.0285",
+      longitude: "77.5171",
+    },
+    geoRadius: {
+      "@type": "Distance",
+      value: "50",
+      unitCode: "KM",
+    },
   },
 }
 

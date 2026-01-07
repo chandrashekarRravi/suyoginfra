@@ -37,6 +37,25 @@ const contactPageSchema = {
     },
     telephone: "+91-6363293112",
     email: "info@suyoginfrasolutions.com",
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "13.0285",
+      longitude: "77.5171",
+    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "09:00",
+        closes: "18:00",
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: "Saturday",
+        opens: "10:00",
+        closes: "16:00",
+      },
+    ],
   },
 }
 
