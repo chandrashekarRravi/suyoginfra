@@ -31,9 +31,36 @@ const aboutPageSchema = {
     foundingDate: "2000",
     description:
       "Construction company in Bengaluru specializing in civil construction, interior execution, turnkey projects, and landscaping services.",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Bengaluru",
+      addressRegion: "Karnataka",
+      addressCountry: "IN",
+    },
+    numberOfEmployees: {
+      "@type": "QuantitativeValue",
+      value: "200",
+    },
+    foundingLocation: {
+      "@type": "Place",
+      addressLocality: "Bengaluru",
+      addressRegion: "Karnataka",
+      addressCountry: "IN",
+    },
   },
   mainEntity: {
     "@type": "LocalBusiness",
+    name: "Suyog Infra Solutions",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Bengaluru",
+      addressRegion: "Karnataka",
+      addressCountry: "IN",
+    },
+  },
+  // AEO signals for entity understanding
+  publisher: {
+    "@type": "Organization",
     name: "Suyog Infra Solutions",
   },
 }

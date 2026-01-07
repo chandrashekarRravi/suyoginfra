@@ -8,6 +8,22 @@ export const servicesPageSchema = {
   description:
     "Comprehensive construction and interior services in Bengaluru including civil construction, residential & commercial interiors, turnkey projects, landscaping, architectural planning, and renovation services.",
   url: `${baseUrl}/services`,
+  inLanguage: "en-IN",
+  isPartOf: {
+    "@type": "WebSite",
+    name: "Suyog Infra Solutions",
+    url: baseUrl,
+  },
+  about: {
+    "@type": "LocalBusiness",
+    name: "Suyog Infra Solutions",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Bengaluru",
+      addressRegion: "Karnataka",
+      addressCountry: "IN",
+    },
+  },
   mainEntity: {
     "@type": "ItemList",
     itemListElement: [

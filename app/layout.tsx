@@ -327,6 +327,7 @@ const localBusinessSchema = {
     "https://www.linkedin.com/company/suyog-infra-solutions",
   ],
   foundingDate: "2000",
+  // Trust signals for answer extraction (AEO)
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.8",
@@ -357,6 +358,22 @@ const localBusinessSchema = {
       unitCode: "KM",
     },
   },
+  // AEO signals for AI answer engines
+  mainEntity: {
+    "@type": "Thing",
+    name: "Construction and Interior Services in Bengaluru",
+  },
+  // Source eligibility signals for AI systems
+  publisher: {
+    "@type": "Organization",
+    name: "Suyog Infra Solutions",
+    logo: {
+      "@type": "ImageObject",
+      url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com"}/suyog.png`,
+    },
+  },
+  // Additional entity clarity for AI understanding
+  keywords: "construction company Bengaluru, interior design Bangalore, turnkey projects Karnataka, landscaping services Peenya, civil construction Rajajinagar",
 }
 
 export default function RootLayout({

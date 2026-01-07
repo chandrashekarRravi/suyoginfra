@@ -6,6 +6,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { motion } from "framer-motion"
 import { servicesPageSchema } from "./page-schema"
+import { howToProcessSchema } from "./howto-schema"
 
 export default function ServicesPage() {
   return (
@@ -13,6 +14,10 @@ export default function ServicesPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesPageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToProcessSchema) }}
       />
       <div className="pt-24">
       {/* Hero Section */}

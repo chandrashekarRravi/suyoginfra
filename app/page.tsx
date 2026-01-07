@@ -38,10 +38,43 @@ export default function Home() {
     about: {
       "@type": "LocalBusiness",
       name: "Suyog Infra Solutions",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Bengaluru",
+        addressRegion: "Karnataka",
+        addressCountry: "IN",
+      },
     },
     mainEntity: {
       "@type": "LocalBusiness",
       name: "Suyog Infra Solutions",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Bengaluru",
+        addressRegion: "Karnataka",
+        addressCountry: "IN",
+      },
+    },
+    // AEO signals for answer extraction
+    breadcrumb: {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com",
+        },
+      ],
+    },
+    // Source eligibility for AI systems
+    publisher: {
+      "@type": "Organization",
+      name: "Suyog Infra Solutions",
+      logo: {
+        "@type": "ImageObject",
+        url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com"}/suyog.png`,
+      },
     },
   }
 
