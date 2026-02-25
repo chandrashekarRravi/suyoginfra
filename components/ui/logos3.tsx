@@ -126,7 +126,7 @@ const Logos3 = ({
                         ))}
                     </div>
                     <div className="absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-white to-transparent"></div>
-                    <div className="absolute inset-y-0 right-0 w-12 bg-gradient-                                                                    to-l from-white to-transparent"></div>
+                    <div className="absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-white to-transparent"></div>
                 </div>
             </div>
         </section>
