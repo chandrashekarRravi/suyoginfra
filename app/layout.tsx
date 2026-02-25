@@ -18,6 +18,13 @@ const montserrat = Montserrat({
   display: "swap",
 })
 
+export const viewport: import("next").Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: "#ffffff",
+}
+
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com"),
   title: {
@@ -43,14 +50,6 @@ export const metadata: Metadata = {
     email: false,
     address: false,
     telephone: false,
-  },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 5,
-  },
-  other: {
-    "mobile-web-app-capable": "yes",
   },
   openGraph: {
     type: "website",

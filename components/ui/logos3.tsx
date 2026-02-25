@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 interface Logo {
     id: string;
@@ -113,17 +114,19 @@ const Logos3 = ({
                                 key={`${logo.id}-${index}`}
                                 className="flex shrink-0 items-center justify-center mx-8"
                             >
-                                <img
+                                <Image
                                     src={logo.image}
                                     alt={logo.description}
-                                    className={`${logo.className} transition-opacity duration-300 hover:opacity-80`}
-                                    loading="lazy"
+                                    width={400}
+                                    height={200}
+                                    quality={100}
+                                    className={`${logo.className} object-contain transition-opacity duration-300 hover:opacity-80`}
                                 />
                             </div>
                         ))}
                     </div>
                     <div className="absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-white to-transparent"></div>
-                    <div className="absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-white to-transparent"></div>
+                    <div className="absolute inset-y-0 right-0 w-12 bg-gradient-                                                                    to-l from-white to-transparent"></div>
                 </div>
             </div>
         </section>

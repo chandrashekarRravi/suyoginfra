@@ -1,6 +1,7 @@
 "use client"
 
 import React from "react"
+import Image from "next/image"
 import { Timeline } from "@/components/ui/timeline"
 
 export default function TimelineDemo() {
@@ -14,28 +15,28 @@ export default function TimelineDemo() {
                         Built and launched Suyog Infra Solutions website with modern UI components and lazy loading features
                     </p>
                     <div className="grid grid-cols-2 gap-4">
-                        <img
+                        <Image
                             src="/placeholder.svg?height=300&width=400"
                             alt="Website launch"
                             width={500}
                             height={500}
                             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
                         />
-                        <img
+                        <Image
                             src="/placeholder.svg?height=300&width=400"
                             alt="Modern UI"
                             width={500}
                             height={500}
                             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
                         />
-                        <img
+                        <Image
                             src="/placeholder.svg?height=300&width=400"
                             alt="Lazy loading"
                             width={500}
                             height={500}
                             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
                         />
-                        <img
+                        <Image
                             src="/placeholder.svg?height=300&width=400"
                             alt="Timeline component"
                             width={500}
@@ -58,28 +59,28 @@ export default function TimelineDemo() {
                         This digital transformation helped us improve efficiency and deliver projects with greater precision and quality.
                     </p>
                     <div className="grid grid-cols-2 gap-4">
-                        <img
+                        <Image
                             src="/placeholder.svg?height=300&width=400"
                             alt="BIM technology"
                             width={500}
                             height={500}
                             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
                         />
-                        <img
+                        <Image
                             src="/placeholder.svg?height=300&width=400"
                             alt="Digital tools"
                             width={500}
                             height={500}
                             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
                         />
-                        <img
+                        <Image
                             src="/placeholder.svg?height=300&width=400"
                             alt="Project management"
                             width={500}
                             height={500}
                             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
                         />
-                        <img
+                        <Image
                             src="/placeholder.svg?height=300&width=400"
                             alt="Team growth"
                             width={500}
@@ -116,28 +117,28 @@ export default function TimelineDemo() {
                         </div>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
-                        <img
+                        <Image
                             src="/placeholder.svg?height=300&width=400"
                             alt="Timeline animation"
                             width={500}
                             height={500}
                             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
                         />
-                        <img
+                        <Image
                             src="/placeholder.svg?height=300&width=400"
                             alt="Lazy loading demo"
                             width={500}
                             height={500}
                             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
                         />
-                        <img
+                        <Image
                             src="/placeholder.svg?height=300&width=400"
                             alt="Responsive design"
                             width={500}
                             height={500}
                             className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
                         />
-                        <img
+                        <Image
                             src="/placeholder.svg?height=300&width=400"
                             alt="Achievement badges"
                             width={500}
