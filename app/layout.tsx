@@ -86,7 +86,7 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "GeneralContractor", "InteriorDesigner"],
-  name: "Suyog Infra Solutions",
+  name: "Suyog Infra bSolutions",
   alternateName: "Suyog Infra",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com",
   logo: `${process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com"}/suyog.png`,

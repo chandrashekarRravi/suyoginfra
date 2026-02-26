@@ -18,7 +18,7 @@ const projects = [
     category: "Interiors",
     location: "Whitefield, Bangalore",
     year: "2022",
-    image: "interior/IP1.png?height=600&width=800",
+    image: "/interior/IP1.png",
     description: "A collection of 12 premium villas with modern amenities and sustainable features.",
     details: {
       scope: "Complete construction and interior execution",
@@ -33,7 +33,7 @@ const projects = [
     category: "Interiors",
     location: "Electronic City, Bangalore",
     year: "2021",
-    image: "interior/IP2.png?height=600&width=800",
+    image: "/interior/IP2.png",
     description: "A state-of-the-art office space designed for collaboration and productivity.",
     details: {
       scope: "Turnkey project including interiors",
@@ -48,7 +48,7 @@ const projects = [
     category: "Interiors",
     location: "MG Road, Bangalore",
     year: "2020",
-    image: "interior/IP3.png?height=600&width=800",
+    image: "/interior/IP3.png",
     description: "Complete renovation and interior redesign of a heritage property.",
     details: {
       scope: "Structural retrofitting and interior redesign",
@@ -63,7 +63,7 @@ const projects = [
     category: "Interiors",
     location: "Indiranagar, Bangalore",
     year: "2022",
-    image: "interior/IP4.png?height=600&width=800",
+    image: "/interior/IP4.png",
     description: "Luxury interior design for a high-end residential complex.",
     details: {
       scope: "Interior design and execution for 24 apartments",
@@ -78,7 +78,7 @@ const projects = [
     category: "Interiors",
     location: "Outer Ring Road, Bangalore",
     year: "2023-Present",
-    image: "interior/IP5.png?height=600&width=800",
+    image: "/interior/IP5.png",
     description: "A modern tech park with collaborative spaces and advanced infrastructure.",
     details: {
       scope: "Complete construction from foundation to finish",
@@ -93,7 +93,7 @@ const projects = [
     category: "Interiors",
     location: "Hebbal, Bangalore",
     year: "2021",
-    image: "interior/IP6.png?height=600&width=800",
+    image: "/interior/IP6.png",
     description: "A 20-story residential tower with premium amenities and smart features.",
     details: {
       scope: "Complete construction and common area interiors",
@@ -108,7 +108,7 @@ const projects = [
     category: "Interiors",
     location: "Koramangala, Bangalore",
     year: "2019",
-    image: "interior/IP7.png?height=600&width=800",
+    image: "/interior/IP7.png",
     description: "A multi-level shopping mall with entertainment zones and food courts.",
     details: {
       scope: "Complete construction and interior execution",
@@ -123,7 +123,7 @@ const projects = [
     category: "Interiors",
     location: "UB City, Bangalore",
     year: "2022",
-    image: "interior/IP8.png?height=600&width=800",
+    image: "/interior/IP8.png",
     description: "Bespoke interior design for a high-end penthouse with panoramic city views.",
     details: {
       scope: "Complete interior design and execution",
@@ -138,7 +138,7 @@ const projects = [
     category: "Interiors",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "interior/IP9.png?height=600&width=800",
+    image: "/interior/IP9.png",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -154,7 +154,7 @@ const projects = [
     category: "Interiors",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "interior/IP10.png?height=600&width=800",
+    image: "/interior/IP10.png",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -170,7 +170,7 @@ const projects = [
     category: "Landscape",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "landscaping/LP1.JPG?height=600&width=800",
+    image: "/landscaping/LP1.JPG",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -185,7 +185,7 @@ const projects = [
     category: "Landscape",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "landscaping/LP2.JPG?height=600&width=800",
+    image: "/landscaping/LP2.JPG",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -200,7 +200,7 @@ const projects = [
     category: "Landscape",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "landscaping/LP3.JPG?height=600&width=800",
+    image: "/landscaping/LP3.JPG",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -215,7 +215,7 @@ const projects = [
     category: "Landscape",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "landscaping/LP4.JPG?height=600&width=800",
+    image: "/landscaping/LP4.JPG",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -230,7 +230,7 @@ const projects = [
     category: "Landscape",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "landscaping/LP5.JPG?height=600&width=800",
+    image: "/landscaping/LP5.JPG",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -245,7 +245,7 @@ const projects = [
     category: "Landscape",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "landscaping/LP6.JPG?height=600&width=800",
+    image: "/landscaping/LP6.JPG",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -260,7 +260,7 @@ const projects = [
     category: "Landscape",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "landscaping/LP7.JPG?height=600&width=800",
+    image: "/landscaping/LP7.JPG",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -275,7 +275,7 @@ const projects = [
     category: "Landscape",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "landscaping/LP8.JPG?height=600&width=800",
+    image: "/landscaping/LP8.JPG",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -290,7 +290,7 @@ const projects = [
     category: "Landscape",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "landscaping/LP9.JPG?height=600&width=800",
+    image: "/landscaping/LP9.JPG",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -306,7 +306,7 @@ const projects = [
     category: "Residential",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "residential/RP1.png?height=600&width=800",
+    image: "/residential/RP1.png",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -321,7 +321,7 @@ const projects = [
     category: "Residential",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "residential/RP2.png?height=600&width=800",
+    image: "/residential/RP2.png",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -336,7 +336,7 @@ const projects = [
     category: "Residential",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "residential/RP3.png?height=600&width=800",
+    image: "/residential/RP3.png",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -351,7 +351,7 @@ const projects = [
     category: "Residential",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "residential/RP4.png?height=600&width=800",
+    image: "/residential/RP4.png",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -366,7 +366,7 @@ const projects = [
     category: "Residential",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "residential/RP5.png?height=600&width=800",
+    image: "/residential/RP5.png",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -381,7 +381,7 @@ const projects = [
     category: "Residential",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "residential/RP6.png?height=600&width=800",
+    image: "/residential/RP6.png",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -396,7 +396,7 @@ const projects = [
     category: "Residential",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "residential/RP7.png?height=600&width=800",
+    image: "/residential/RP7.png",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -411,7 +411,7 @@ const projects = [
     category: "Residential",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "residential/RP8.png?height=600&width=800",
+    image: "/residential/RP8.png",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -426,7 +426,7 @@ const projects = [
     category: "Residential",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "residential/RP9.png?height=600&width=800",
+    image: "/residential/RP9.png",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -442,7 +442,7 @@ const projects = [
     category: "Commercial",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "comm/cp1.jpg?height=600&width=800",
+    image: "/comm/cp1.jpg",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -457,7 +457,7 @@ const projects = [
     category: "Commercial",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "comm/cp2.JPG?height=600&width=800",
+    image: "/comm/cp2.JPG",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",
@@ -472,7 +472,7 @@ const projects = [
     category: "Commercial",
     location: "Yelahanka, Bangalore",
     year: "2023-Present",
-    image: "comm/cp3.JPG?height=600&width=800",
+    image: "/comm/cp3.JPG",
     description: "A mixed-use development with residential, commercial and retail spaces.",
     details: {
       scope: "Master planning and phased construction",

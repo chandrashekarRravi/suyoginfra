@@ -28,12 +28,12 @@ export default function Hero() {
       <div className="container relative z-20 mx-auto flex min-h-screen items-center px-4">
         <div className="max-w-3xl pt-32">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-            <h1 className="font-montserrat text-4xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
-              Crafting the Future <br />
-              Spaces
+            <h1 className="mb-6 font-montserrat text-4xl font-bold leading-tight sm:text-5xl md:text-6xl lg:text-7xl">
+              <span className="text-gray-400">Building     Excellence for the Future</span> <br className="hidden sm:block" />
+
             </h1>
-            <p className="mt-6 max-w-xl text-lg text-gray-200">
-              We provide complete construction and interior solutions, backed by decades of proven excellence in Bangalore and beyond.
+            <p className="mb-8 text-lg text-gray-200 sm:text-xl md:max-w-2xl text-shadow-sm font-medium">
+              Suyog Infra Solutions provides expert civil construction, turnkey interiors, and sustainable infrastructure developments across Bangalore, with over 20 years of proven excellence.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link href="/projects">

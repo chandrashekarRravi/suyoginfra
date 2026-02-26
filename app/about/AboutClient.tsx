@@ -52,15 +52,15 @@ export default function AboutPage() {
               viewport={{ once: false }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <h2 className="font-montserrat text-3xl font-semibold tracking-tight">Our Story</h2>
+              <h2 className="font-montserrat text-3xl font-semibold tracking-tight">Who is Suyog Infra Solutions?</h2>
               <motion.p
-                className="mt-6 text-gray-600"
+                className="mt-6 text-gray-600 font-semibold"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
-                Suyog Infra Solutions started as a small construction firm with a big vision to transform Bangalore’s urban landscape through quality construction and innovative design.
+                Suyog Infra Solutions was founded in 2000 and has since grown into one of Bangalore’s premier construction and interior execution firms. Over our 20+ years of operation, we have successfully delivered over 2 million square feet of high-quality infrastructure, spanning commercial tech parks, residential villas, and institutional buildings.
               </motion.p>
               <motion.p
                 className="mt-4 text-gray-600"
@@ -200,35 +200,35 @@ export default function AboutPage() {
                 image: "/anil.JPG?height=400&width=400",
               },
               {
-              name: "Sanjay Gowda",
-              position: "SCM Head",
-              bio: "Sanjay Gowda manages the entire supply chain and procurement process, ensuring timely delivery of quality materials while optimizing costs and maintaining vendor relationships.",
-              image: "/sanjay.JPG?height=400&width=400",
-            },
-            {
-              name: "Shalini",
-              position: "Architect",
-              bio: "Shalini brings creative design solutions to life, combining aesthetic vision with practical functionality to deliver innovative architectural designs that meet client requirements.",
-              image: "/shalini.JPG?height=400&width=400",
-            },
-            {
-              name: "Sunil",
-              position: "Senior Project Manager",
-              bio: "Sunil leads project execution with extensive experience in construction management, ensuring seamless coordination between teams, timely completion and adherence to quality standards across all project phases.",
-              image: "/sunil.JPG?height=400&width=400",
-            },
-            {
-              name: "Gopal V S",
-              position: "Project Manager - Landscaping",
-              bio: "Gopal leads landscape project execution with specialized expertise in outdoor space transformation. He ensures seamless coordination between design and site teams, prioritizing environmental standards, timely completion and superior aesthetic quality across all project phases.",
-              image: "/gopal.JPG?height=400&width=400",
-            },
-            {
-              name: "Hareesha M",
-              position: "Project Manager - EV & Automation",
-              bio: "Hareesha M provides strategic oversight in the EV and automation segment, leveraging deep technical expertise to drive the integration of advanced automation systems. He excels in managing complex project lifecycles, ensuring cross-functional team alignment and the delivery of innovative, high-performance solutions in sustainable mobility.",
-              image: "/hareesha.JPG?height=400&width=400",
-            }
+                name: "Sanjay Gowda",
+                position: "SCM Head",
+                bio: "Sanjay Gowda manages the entire supply chain and procurement process, ensuring timely delivery of quality materials while optimizing costs and maintaining vendor relationships.",
+                image: "/sanjay.JPG?height=400&width=400",
+              },
+              {
+                name: "Shalini",
+                position: "Architect",
+                bio: "Shalini brings creative design solutions to life, combining aesthetic vision with practical functionality to deliver innovative architectural designs that meet client requirements.",
+                image: "/shalini.JPG?height=400&width=400",
+              },
+              {
+                name: "Sunil",
+                position: "Senior Project Manager",
+                bio: "Sunil leads project execution with extensive experience in construction management, ensuring seamless coordination between teams, timely completion and adherence to quality standards across all project phases.",
+                image: "/sunil.JPG?height=400&width=400",
+              },
+              {
+                name: "Gopal V S",
+                position: "Project Manager - Landscaping",
+                bio: "Gopal leads landscape project execution with specialized expertise in outdoor space transformation. He ensures seamless coordination between design and site teams, prioritizing environmental standards, timely completion and superior aesthetic quality across all project phases.",
+                image: "/gopal.JPG?height=400&width=400",
+              },
+              {
+                name: "Hareesha M",
+                position: "Project Manager - EV & Automation",
+                bio: "Hareesha M provides strategic oversight in the EV and automation segment, leveraging deep technical expertise to drive the integration of advanced automation systems. He excels in managing complex project lifecycles, ensuring cross-functional team alignment and the delivery of innovative, high-performance solutions in sustainable mobility.",
+                image: "/hareesha.JPG?height=400&width=400",
+              }
             ].map((member, index) => (
               <motion.div
                 key={index}
