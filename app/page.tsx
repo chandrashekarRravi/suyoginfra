@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Suyog Infra Solutions provides comprehensive construction and interior solutions in Bangalore. Explore our services, projects, and expertise in civil construction, interior execution, and turnkey infrastructure.",
   alternates: {
-    canonical: "/",
+    canonical: process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com",
   },
 }
 
@@ -109,7 +109,11 @@ export default function Home() {
             </div>
             <ServiceGrid />
             <div className="mt-16 flex justify-center">
-              <Link href="/services">
+              <Link
+                href="/services"
+                title="Explore comprehensive Civil Construction and Interior Execution Services in Bangalore"
+                aria-label="View our full range of construction, turnkey, and landscaping services"
+              >
                 <Button
                   variant="outline"
                   className="group border-2 border-tata-blue px-8 py-6 text-tata-blue hover:bg-tata-blue hover:text-white"

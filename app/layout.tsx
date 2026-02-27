@@ -31,6 +31,9 @@ export const metadata: Metadata = {
     default: "Suyog Infra Solutions | Premier Civil Construction & Interior Execution",
     template: "%s | Suyog Infra Solutions",
   },
+  alternates: {
+    canonical: "/",
+  },
   description:
     "Suyog Infra Solutions - Premier construction company in Bengaluru & Rajajinagar. Expert in civil construction, residential & commercial interiors, turnkey projects, and landscaping services. Over 20 years of excellence.",
   keywords: [
@@ -59,12 +62,21 @@ export const metadata: Metadata = {
     title: "Suyog Infra Solutions | Premier Civil Construction & Interior Execution",
     description:
       "Suyog Infra Solutions - Premier construction company in Bengaluru & Rajajinagar. Expert in civil construction, residential & commercial interiors, turnkey projects, and landscaping services.",
+    images: [
+      {
+        url: "/suyog.png",
+        width: 1200,
+        height: 630,
+        alt: "Suyog Infra Solutions",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Suyog Infra Solutions | Premier Civil Construction & Interior Execution",
     description:
       "Suyog Infra Solutions - Premier construction company in Bengaluru & Rajajinagar. Expert in civil construction, residential & commercial interiors, turnkey projects, and landscaping services.",
+    images: ["/suyog.png"],
   },
   robots: {
     index: true,
@@ -82,11 +94,26 @@ export const metadata: Metadata = {
   },
 }
 
+// Organization structured data for strong AI entity recognition
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Suyog Infra Solutions",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com",
+  logo: `${process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com"}/suyog.png`,
+  sameAs: [
+    "http://facebook.com/suyoginfrasolutions",
+    "https://www.instagram.com/suyog_infra_solutions/",
+    "https://x.com/InfraSuyog3071",
+    "https://www.linkedin.com/company/suyog-infra-solutions",
+  ],
+}
+
 // LocalBusiness structured data with enhanced signals
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "GeneralContractor", "InteriorDesigner"],
-  name: "Suyog Infra bSolutions",
+  name: "Suyog Infra Solutions",
   alternateName: "Suyog Infra",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com",
   logo: `${process.env.NEXT_PUBLIC_SITE_URL || "https://suyoginfrasolutions.com"}/suyog.png`,
@@ -389,6 +416,10 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         {/* Structured data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
